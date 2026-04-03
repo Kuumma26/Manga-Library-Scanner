@@ -1,12 +1,21 @@
 {
-  "version": "8.2.0",
+  "version": "8.2.1",
   "released_at": "2026-04-03",
-  "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v8.2.0",
-  "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v8.2.0/Manga.Library.Scanner.v8.2.0.exe",
+  "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v8.2.1",
+  "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v8.2.1/Manga.Library.Scanner.v8.2.1.exe",
   "notes": [
-    "v8.2.0 마이너 업데이트 (이전 내부 구조, UI 최적화 반영 및 안정화)"
+    "처음 실행하거나 저장된 라이브러리가 없을 때 상태바에 초기 사용 안내 문구가 명확하게 표시되도록 개선"
   ],
   "releases": [
+    {
+      "version": "8.2.1",
+      "released_at": "2026-04-03",
+      "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v8.2.1",
+      "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v8.2.1/Manga.Library.Scanner.v8.2.1.exe",
+      "notes": [
+        "처음 실행하거나 저장된 라이브러리가 없을 때 상태바에 초기 사용 안내 문구가 명확하게 표시되도록 개선"
+      ]
+    },
     {
       "version": "8.2.0",
       "released_at": "2026-04-03",

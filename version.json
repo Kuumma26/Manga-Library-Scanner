@@ -1,12 +1,31 @@
 {
-  "version": "8.2.3",
-  "released_at": "2026-04-04",
-  "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v8.2.3",
-  "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v8.2.3/Manga.Library.Scanner.v8.2.3.exe",
+  "version": "8.2.4",
+  "released_at": "2026-04-05",
+  "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v8.2.4",
+  "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v8.2.4/Manga.Library.Scanner.v8.2.4.exe",
   "notes": [
-    "목록 검사 결과창에서 우클릭 분석이 정상 동작하지 않던 문제를 수정 (v8.2.3)"
+    "목록 검사에서 시즌 분리 작품과 일부 이토 준지 단편집 제목이 실제 보유 상태에 더 자연스럽게 매칭되도록 개선",
+    "목록 검사 입력의 특수 대시 표기(–)가 섞여도 보유 권수 판정이 더 안정적으로 동작하도록 보정",
+    "일부 네트워크 환경에서 자동 업데이트 준비 확인이 더 안정적으로 통과하도록 보강",
+    "업데이트 창 가로폭과 버튼 구성을 정리하고, 수동 업데이트 버튼을 추가해 접근성을 개선",
+    "자동 업데이트 진행 안내를 단순 텍스트형으로 정리하고 PowerShell 창 노출을 줄이도록 개선",
+    "자동 업데이트 진행창을 더 깔끔한 카드형 안내로 다듬고, 진행 단계가 바뀌는 모습이 보이도록 개선"
   ],
   "releases": [
+    {
+      "version": "8.2.4",
+      "released_at": "2026-04-05",
+      "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v8.2.4",
+      "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v8.2.4/Manga.Library.Scanner.v8.2.4.exe",
+      "notes": [
+        "목록 검사에서 시즌 분리 작품과 일부 이토 준지 단편집 제목이 실제 보유 상태에 더 자연스럽게 매칭되도록 개선",
+        "목록 검사 입력의 특수 대시 표기(–)가 섞여도 보유 권수 판정이 더 안정적으로 동작하도록 보정",
+        "일부 네트워크 환경에서 자동 업데이트 준비 확인이 더 안정적으로 통과하도록 보강",
+        "업데이트 창 가로폭과 버튼 구성을 정리하고, 수동 업데이트 버튼을 추가해 접근성을 개선",
+        "자동 업데이트 진행 안내를 단순 텍스트형으로 정리하고 PowerShell 창 노출을 줄이도록 개선",
+        "자동 업데이트 진행창을 더 깔끔한 카드형 안내로 다듬고, 진행 단계가 바뀌는 모습이 보이도록 개선"
+      ]
+    },
     {
       "version": "8.2.3",
       "released_at": "2026-04-04",

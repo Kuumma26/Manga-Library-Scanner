@@ -1,19 +1,21 @@
 {
-  "version": "8.2.2",
+  "version": "8.2.3",
   "released_at": "2026-04-04",
-  "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v8.2.2",
-  "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v8.2.2/Manga.Library.Scanner.v8.2.2.exe",
+  "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v8.2.3",
+  "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v8.2.3/Manga.Library.Scanner.v8.2.3.exe",
   "notes": [
-    "앱 실행 시 새 버전이 있으면 업데이트 창이 자동으로 열리고, 원하면 24시간 동안 다시 알리지 않도록 설정할 수 있게 개선",
-    "목록 검사에서 비슷한 단어가 일부 겹치는 다른 작품으로 잘못 매칭되던 오탐을 줄여 정확도를 개선",
-    "검색과 목록 검사에서 제목 앞부분이 더 비슷한 작품이 우선되도록 매칭 우선순위를 조정",
-    "연관 검색에서 란마½ / 란마 1/2 같은 분수 표기도 란마 1 2 검색어와 자연스럽게 이어지도록 검색 정확도를 개선",
-    "메인 목록 우클릭 동작이 다중 선택을 더 자연스럽게 따르도록 개선",
-    "환경설정에 새로운 테마 5종(Matcha Mist, Graphite Mint, Aurora Plum, SynthWave, Tokyo Night Light)을 추가해 취향에 맞는 분위기로 선택할 수 있게 개선",
-    "메인 목록과 목록 검사 결과창에서 컬럼 경계선을 더블클릭하면 해당 열 내용 길이에 맞춰 폭이 자동으로 조정되도록 개선",
-    "목록 검사 결과창도 긴 셀 텍스트에 마우스를 올리면 잘린 내용을 툴팁으로 볼 수 있도록 통일"
+    "목록 검사 결과창에서 우클릭 분석이 정상 동작하지 않던 문제를 수정 (v8.2.3)"
   ],
   "releases": [
+    {
+      "version": "8.2.3",
+      "released_at": "2026-04-04",
+      "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v8.2.3",
+      "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v8.2.3/Manga.Library.Scanner.v8.2.3.exe",
+      "notes": [
+        "목록 검사 결과창에서 우클릭 분석이 정상 동작하지 않던 문제를 수정 (v8.2.3)"
+      ]
+    },
     {
       "version": "8.2.2",
       "released_at": "2026-04-04",

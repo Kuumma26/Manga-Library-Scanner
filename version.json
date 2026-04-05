@@ -1,13 +1,21 @@
 {
-  "version": "8.2.6",
-  "released_at": "2026-04-05",
-  "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v8.2.6",
-  "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v8.2.6/Manga.Library.Scanner.v8.2.6.exe",
+  "version": "8.2.7",
+  "released_at": "2026-04-06",
+  "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v8.2.7",
+  "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v8.2.7/Manga.Library.Scanner.v8.2.7.exe",
   "notes": [
-    "자동 업데이트에서 일부 PC 환경의 사전 확인이 실패해도 곧바로 “실행 파일이 아직 준비되지 않았다”로 멈추지 않고, 실제 다운로드를 한 번 더 시도하도록 보강",
-    "업데이트 창의 변경사항 영역에 세로 스크롤을 추가해 내용이 길어도 끝까지 확인하기 쉽게 개선"
+    "자동 업데이트 확인에서 일부 PC 환경의 사전 확인이 실패해도 곧바로 다운로드를 막지 않고 실제 다운로드를 한 번 더 시도하도록 보강"
   ],
   "releases": [
+    {
+      "version": "8.2.7",
+      "released_at": "2026-04-06",
+      "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v8.2.7",
+      "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v8.2.7/Manga.Library.Scanner.v8.2.7.exe",
+      "notes": [
+        "자동 업데이트 확인에서 일부 PC 환경의 사전 확인이 실패해도 곧바로 다운로드를 막지 않고 실제 다운로드를 한 번 더 시도하도록 보강"
+      ]
+    },
     {
       "version": "8.2.6",
       "released_at": "2026-04-05",

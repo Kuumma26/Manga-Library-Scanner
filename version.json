@@ -1,14 +1,31 @@
 {
-  "version": "8.3.1",
-  "released_at": "2026-04-09",
-  "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v8.3.1",
-  "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v8.3.1/Manga.Library.Scanner.v8.3.1.exe",
+  "version": "8.3.2",
+  "released_at": "2026-04-10",
+  "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v8.3.2",
+  "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v8.3.2/Manga.Library.Scanner.v8.3.2.exe",
   "notes": [
     "일부 PC에서 인증서 검증 문제로 자동 업데이트가 바로 실패하던 경우, 신뢰 인증서 묶음으로 한 번 더 재시도하도록 보강",
-    "자동 업데이트 버튼으로 받은 다운로드가 끝내 실패하면, 릴리즈 페이지 대신 브라우저에서 exe 직접 다운로드를 자동으로 열어 이어받기 쉽게 보강",
-    "자동 업데이트가 실패했을 때도 인증서/네트워크 같은 실패 이유를 더 알아보기 쉽게 안내하고, 브라우저 직접 다운로드 전환 여부를 분명하게 알려주도록 개선"
+    "일부 PC에서 빌드된 실행 파일이 Python 기본 인증서 체인을 제대로 못 쓰는 경우에도, exe 안에 포함한 표준 인증서 묶음으로 다시 검증을 시도하도록 보강",
+    "`수동 업데이트` 버튼은 릴리즈 페이지 대신 브라우저에서 exe 직접 다운로드가 바로 시작되도록 바꾸고, download URL이 없을 때만 릴리즈 페이지로 넘어가도록 정리",
+    "자동 업데이트가 실패했을 때는 브라우저를 자동으로 열지 않고, 실패 이유와 함께 업데이트 창의 `수동 업데이트` 버튼으로 다시 내려받을 수 있게 안내하도록 개선",
+    "실행 직후 자동으로 뜨는 업데이트 창은 `앞으로 자동으로 열지 않기`로 끌 수 있게 하고, 환경설정 > 폰트/UI에서 다시 켜거나 끌 수 있도록 추가",
+    "목록 검사에서 `그녀의 사랑`처럼 짧은 제목이 더 긴 문장형 제목으로 잘못 붙는 오탐을 줄이고, `칸자키군은 독신 1500px 단권` 같은 단권/px 표기도 더 정확히 인식하도록 보강"
   ],
   "releases": [
+    {
+      "version": "8.3.2",
+      "released_at": "2026-04-10",
+      "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v8.3.2",
+      "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v8.3.2/Manga.Library.Scanner.v8.3.2.exe",
+      "notes": [
+        "일부 PC에서 인증서 검증 문제로 자동 업데이트가 바로 실패하던 경우, 신뢰 인증서 묶음으로 한 번 더 재시도하도록 보강",
+        "일부 PC에서 빌드된 실행 파일이 Python 기본 인증서 체인을 제대로 못 쓰는 경우에도, exe 안에 포함한 표준 인증서 묶음으로 다시 검증을 시도하도록 보강",
+        "`수동 업데이트` 버튼은 릴리즈 페이지 대신 브라우저에서 exe 직접 다운로드가 바로 시작되도록 바꾸고, download URL이 없을 때만 릴리즈 페이지로 넘어가도록 정리",
+        "자동 업데이트가 실패했을 때는 브라우저를 자동으로 열지 않고, 실패 이유와 함께 업데이트 창의 `수동 업데이트` 버튼으로 다시 내려받을 수 있게 안내하도록 개선",
+        "실행 직후 자동으로 뜨는 업데이트 창은 `앞으로 자동으로 열지 않기`로 끌 수 있게 하고, 환경설정 > 폰트/UI에서 다시 켜거나 끌 수 있도록 추가",
+        "목록 검사에서 `그녀의 사랑`처럼 짧은 제목이 더 긴 문장형 제목으로 잘못 붙는 오탐을 줄이고, `칸자키군은 독신 1500px 단권` 같은 단권/px 표기도 더 정확히 인식하도록 보강"
+      ]
+    },
     {
       "version": "8.3.1",
       "released_at": "2026-04-09",

@@ -1,15 +1,29 @@
 {
-  "version": "8.3.4",
+  "version": "8.3.5",
   "released_at": "2026-04-11",
-  "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v8.3.4",
-  "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v8.3.4/Manga.Library.Scanner.v8.3.4.exe",
+  "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v8.3.5",
+  "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v8.3.5/Manga.Library.Scanner.v8.3.5.exe",
   "notes": [
-    "목록 검사 피드백을 현재 라이브러리 기준으로 바로 재현해 판정과 상위 후보를 확인할 수 있는 운영용 helper를 추가",
-    "목록 검사에서 `믹스`처럼 그룹 제목은 영문(`MIX`)인데 실제 소장 파일명에는 한글/영문 병기가 함께 있는 경우도 더 자연스럽게 찾아 매칭하도록 보강",
-    "업데이트 창의 `24시간 동안 다시 알리지 않음` / `앞으로 자동으로 열지 않기` 체크박스도 다른 화면과 같은 커스텀 체크박스로 통일해 테마가 더 자연스럽게 따라오도록 정리",
-    "(현재 비어 있음)"
+    "자동 업데이트 팝업에서 변경사항 영역을 더 넓게 보고, 두 체크박스는 가로 한 줄로 배치하고, 환경설정 안내는 툴팁으로만 보이도록 다듬어 화면이 덜 답답하게 보이도록 정리",
+    "검색 결과를 보고 있는 상태에서 시리즈명/용량/권수 같은 컬럼 정렬을 눌러도 전체 보기로 풀리지 않고 현재 검색 결과 안에서 그대로 정렬되도록 수정",
+    "환경설정의 키워드 탭을 스크롤 가능한 본문으로 바꿔 항목이 많아져도 덜 답답하게 볼 수 있게 했고, `다른작업물` 같은 특수 하위폴더명도 환경설정에서 직접 바꿀 수 있게 추가",
+    "키워드 탭의 입력창과 `편집` 버튼 간격을 조금 더 자연스럽게 다듬어 버튼이 너무 붙어 보이지 않도록 정리",
+    "환경설정의 키워드 탭에서 마우스휠로 바로 위아래 스크롤할 수 있게 보강해 긴 항목 목록을 더 자연스럽게 탐색할 수 있도록 수정"
   ],
   "releases": [
+    {
+      "version": "8.3.5",
+      "released_at": "2026-04-11",
+      "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v8.3.5",
+      "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v8.3.5/Manga.Library.Scanner.v8.3.5.exe",
+      "notes": [
+        "자동 업데이트 팝업에서 변경사항 영역을 더 넓게 보고, 두 체크박스는 가로 한 줄로 배치하고, 환경설정 안내는 툴팁으로만 보이도록 다듬어 화면이 덜 답답하게 보이도록 정리",
+        "검색 결과를 보고 있는 상태에서 시리즈명/용량/권수 같은 컬럼 정렬을 눌러도 전체 보기로 풀리지 않고 현재 검색 결과 안에서 그대로 정렬되도록 수정",
+        "환경설정의 키워드 탭을 스크롤 가능한 본문으로 바꿔 항목이 많아져도 덜 답답하게 볼 수 있게 했고, `다른작업물` 같은 특수 하위폴더명도 환경설정에서 직접 바꿀 수 있게 추가",
+        "키워드 탭의 입력창과 `편집` 버튼 간격을 조금 더 자연스럽게 다듬어 버튼이 너무 붙어 보이지 않도록 정리",
+        "환경설정의 키워드 탭에서 마우스휠로 바로 위아래 스크롤할 수 있게 보강해 긴 항목 목록을 더 자연스럽게 탐색할 수 있도록 수정"
+      ]
+    },
     {
       "version": "8.3.4",
       "released_at": "2026-04-11",

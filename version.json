@@ -1,16 +1,27 @@
 {
-  "version": "8.3.6",
+  "version": "8.3.7",
   "released_at": "2026-04-12",
-  "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v8.3.6",
-  "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v8.3.6/Manga.Library.Scanner.v8.3.6.exe",
+  "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v8.3.7",
+  "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v8.3.7/Manga.Library.Scanner.v8.3.7.exe",
   "notes": [
-    "환경설정의 모든 탭을 스크롤 가능한 본문 구조로 바꿔, 항목이 많아지거나 UI 배율이 커져도 각 탭에서 마우스휠로 더 편하게 탐색할 수 있도록 정리",
-    "환경설정의 키워드 탭에서 `다른작업물` 같은 특수 하위폴더명을 직접 바꿀 수 있게 추가하고, 입력창과 `편집` 버튼 간격도 더 자연스럽게 다듬음",
-    "환경설정 각 탭에 스크롤바가 들어간 뒤 내용물과 스크롤바가 너무 붙지 않도록 본문 usable width를 다시 맞추고, 위아래 끝에서 빈공간으로 더 밀려나지 않도록 스크롤 동작을 정리",
-    "환경설정의 단축키 탭 맨 위 안내문이 오른쪽에서 잘리지 않도록 스크롤 탭 전용 안내문 랩 폭을 더 보수적으로 조정",
-    "목록 검사에서 `전광석화 1 - 6권 완 1950px +32`처럼 권수 범위 양옆에 공백이 있는 입력도 제목과 권수를 올바르게 분리해 정상 비교되도록 보강"
+    "목록 검사에서 `통 - 비밀`처럼 하이픈이 제목 일부인 작품이 `비밀`만 따로 잡히지 않도록 제목 해석을 보강",
+    "목록 검사에서 `어린 아내`처럼 짧은 제목이 `어린 아내와 신혼생활` 같은 더 긴 문장형 작품으로 잘못 붙는 오탐을 줄이도록 보강",
+    "`삼국연전기 4부 ~영원의 화묵~ 01권`처럼 `n부` 파트 표기와 실제 권수가 함께 있는 파일도 권수를 올바르게 잡아 `권수 미상`으로 빠지지 않도록 보강",
+    "`보루토 -TWO BLUE VORTEX- 01권`처럼 하이픈 부제가 붙은 제목도 권수와 제목을 올바르게 분리해 `권수 미상`으로 빠지지 않도록 보강"
   ],
   "releases": [
+    {
+      "version": "8.3.7",
+      "released_at": "2026-04-12",
+      "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v8.3.7",
+      "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v8.3.7/Manga.Library.Scanner.v8.3.7.exe",
+      "notes": [
+        "목록 검사에서 `통 - 비밀`처럼 하이픈이 제목 일부인 작품이 `비밀`만 따로 잡히지 않도록 제목 해석을 보강",
+        "목록 검사에서 `어린 아내`처럼 짧은 제목이 `어린 아내와 신혼생활` 같은 더 긴 문장형 작품으로 잘못 붙는 오탐을 줄이도록 보강",
+        "`삼국연전기 4부 ~영원의 화묵~ 01권`처럼 `n부` 파트 표기와 실제 권수가 함께 있는 파일도 권수를 올바르게 잡아 `권수 미상`으로 빠지지 않도록 보강",
+        "`보루토 -TWO BLUE VORTEX- 01권`처럼 하이픈 부제가 붙은 제목도 권수와 제목을 올바르게 분리해 `권수 미상`으로 빠지지 않도록 보강"
+      ]
+    },
     {
       "version": "8.3.6",
       "released_at": "2026-04-12",

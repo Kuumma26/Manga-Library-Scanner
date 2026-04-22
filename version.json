@@ -1,15 +1,27 @@
 {
-  "version": "8.4.7",
+  "version": "8.4.8",
   "released_at": "2026-04-22",
-  "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v8.4.7",
-  "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v8.4.7/Manga.Library.Scanner.v8.4.7.exe",
+  "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v8.4.8",
+  "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v8.4.8/Manga.Library.Scanner.v8.4.8.exe",
   "notes": [
-    "검색과 목록 갱신 반응 속도를 개선",
-    "라이브러리 스캔 진행 표시와 시작 전후 반응성을 개선",
-    "통합 비교와 해상도 분석 창의 버튼/결과 표시 안정성을 개선",
-    "스캔 설정에 ZIP/CBZ 압축 손상 검사 옵션을 추가하고 손상 파일 안내를 복구"
+    "검색과 목록 갱신 반응 속도를 개선했습니다.",
+    "라이브러리 스캔 진행 표시와 시작 전후 반응성을 개선했습니다.",
+    "환경설정의 중복 제외 옵션이 어떤 키워드 설정을 참고하는지 더 알아보기 쉽게 안내를 보강했습니다.",
+    "몬스터/몬스터 완전판처럼 상위 폴더명에는 판본 수식어가 없고 파일명에만 수식어가 붙은 경우에도 보관용 하위폴더 중복 제외가 더 자연스럽게 적용되도록 개선했습니다."
   ],
   "releases": [
+    {
+      "version": "8.4.8",
+      "released_at": "2026-04-22",
+      "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v8.4.8",
+      "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v8.4.8/Manga.Library.Scanner.v8.4.8.exe",
+      "notes": [
+        "검색과 목록 갱신 반응 속도를 개선했습니다.",
+        "라이브러리 스캔 진행 표시와 시작 전후 반응성을 개선했습니다.",
+        "환경설정의 중복 제외 옵션이 어떤 키워드 설정을 참고하는지 더 알아보기 쉽게 안내를 보강했습니다.",
+        "몬스터/몬스터 완전판처럼 상위 폴더명에는 판본 수식어가 없고 파일명에만 수식어가 붙은 경우에도 보관용 하위폴더 중복 제외가 더 자연스럽게 적용되도록 개선했습니다."
+      ]
+    },
     {
       "version": "8.4.7",
       "released_at": "2026-04-22",
@@ -54,16 +66,6 @@
         "긴 검색어로 결과를 찾을 때도 같은 검색어 해석을 반복하지 않도록 정리해 검색 반응성을 개선",
         "목록 검사에서 같은 라이브러리를 반복 비교할 때 내부 준비값을 재사용해 검사 체감 속도를 개선",
         "자동 스캔 `Auto` 스레드 기준을 상향해, CPU 여유가 있는 PC에서는 기본 스캔 속도가 더 잘 나오도록 조정"
-      ]
-    },
-    {
-      "version": "8.4.1",
-      "released_at": "2026-04-15",
-      "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v8.4.1",
-      "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v8.4.1/Manga.Library.Scanner.v8.4.1.exe",
-      "notes": [
-        "스캔 스레드 `Auto` 기준을 더 공격적으로 조정해, 고사양 PC에서는 CPU 절반 기준으로 더 빠르게 스캔하도록 보강",
-        "목록 검사에서 같은 라이브러리를 여러 줄 비교할 때 시리즈 제목 정규화와 파일명 alias 준비를 재사용하도록 정리해, 반복 검사 반응이 덜 무겁게 느껴지도록 보강"
       ]
     }
   ]

@@ -1,13 +1,27 @@
 {
-  "version": "8.6.2",
+  "version": "8.6.3",
   "released_at": "2026-04-25",
-  "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v8.6.2",
-  "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v8.6.2/Manga.Library.Scanner.v8.6.2.exe",
+  "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v8.6.3",
+  "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v8.6.3/Manga.Library.Scanner.v8.6.3.exe",
   "notes": [
     "자동 업데이트 후 새 버전을 실행하는 단계에서 일부 이전 설정이 남아 있어 프로그램이 정상적으로 다시 열리지 않을 수 있던 문제를 수정했습니다.",
-    "자동 업데이트가 새 버전을 실행할 때 우회 실행 대신 새 실행 파일을 직접 실행하도록 정리해, 업데이트 마무리 단계의 안정성을 높였습니다."
+    "자동 업데이트가 새 버전을 실행할 때 우회 실행 대신 새 실행 파일을 직접 실행하도록 정리해, 업데이트 마무리 단계의 안정성을 높였습니다.",
+    "새 버전 실행 직후 업데이트 상태를 확인하는 과정에서 일부 환경의 시작 오류가 발생하지 않도록 보강했습니다.",
+    "Qt 화면으로 시작한 새 버전도 자동 업데이트 완료 신호를 정상적으로 남기도록 보강했습니다."
   ],
   "releases": [
+    {
+      "version": "8.6.3",
+      "released_at": "2026-04-25",
+      "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v8.6.3",
+      "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v8.6.3/Manga.Library.Scanner.v8.6.3.exe",
+      "notes": [
+        "자동 업데이트 후 새 버전을 실행하는 단계에서 일부 이전 설정이 남아 있어 프로그램이 정상적으로 다시 열리지 않을 수 있던 문제를 수정했습니다.",
+        "자동 업데이트가 새 버전을 실행할 때 우회 실행 대신 새 실행 파일을 직접 실행하도록 정리해, 업데이트 마무리 단계의 안정성을 높였습니다.",
+        "새 버전 실행 직후 업데이트 상태를 확인하는 과정에서 일부 환경의 시작 오류가 발생하지 않도록 보강했습니다.",
+        "Qt 화면으로 시작한 새 버전도 자동 업데이트 완료 신호를 정상적으로 남기도록 보강했습니다."
+      ]
+    },
     {
       "version": "8.6.2",
       "released_at": "2026-04-25",
@@ -53,16 +67,6 @@
         "라이브러리 스캔 진행 표시와 시작 전후 반응성을 개선",
         "통합 비교와 해상도 분석 창의 버튼/결과 표시 안정성을 개선",
         "스캔 설정에 ZIP/CBZ 압축 손상 검사 옵션을 추가하고 손상 파일 안내를 복구"
-      ]
-    },
-    {
-      "version": "8.4.5",
-      "released_at": "2026-04-20",
-      "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v8.4.5",
-      "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v8.4.5/Manga.Library.Scanner.v8.4.5.exe",
-      "notes": [
-        "목록 검사에서 `/`로 이어 붙은 두 작품 입력도 각각 따로 분리해 판정하도록 보강해, 첫 작품만 부분 보유로 잘못 잡히던 오탐을 줄임",
-        "연관 검색에서 전혀 맞지 않는 파일 후보를 더 빨리 건너뛰도록 정리해, 긴 검색어 검색 속도를 개선"
       ]
     }
   ]

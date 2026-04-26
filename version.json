@@ -1,12 +1,25 @@
 {
-  "version": "8.7.4",
+  "version": "8.7.5",
   "released_at": "2026-04-26",
-  "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v8.7.4",
-  "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v8.7.4/Manga.Library.Scanner.v8.7.4.exe",
+  "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v8.7.5",
+  "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v8.7.5/Manga.Library.Scanner.v8.7.5.exe",
   "notes": [
-    "목록과 목록 검사에서 글자가 실제로 잘린 경우에만 툴팁이 표시되도록 개선했습니다."
+    "도움말, 패치노트, 메인 결과 비교 요약에서 불필요한 저장 버튼을 제거해 버튼 구성을 단순하게 정리했습니다.",
+    "Midnight Neon 테마에서 메인 목록과 키워드 편집 영역의 스크롤바 손잡이/배경 색상 차이를 키워 더 잘 보이도록 조정했습니다.",
+    "환경설정의 해상도 색상과 목록 검사 상태 색상 미리보기가 실제 분석/목록검사 결과 색상과 맞게 보이도록 수정했습니다."
   ],
   "releases": [
+    {
+      "version": "8.7.5",
+      "released_at": "2026-04-26",
+      "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v8.7.5",
+      "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v8.7.5/Manga.Library.Scanner.v8.7.5.exe",
+      "notes": [
+        "도움말, 패치노트, 메인 결과 비교 요약에서 불필요한 저장 버튼을 제거해 버튼 구성을 단순하게 정리했습니다.",
+        "Midnight Neon 테마에서 메인 목록과 키워드 편집 영역의 스크롤바 손잡이/배경 색상 차이를 키워 더 잘 보이도록 조정했습니다.",
+        "환경설정의 해상도 색상과 목록 검사 상태 색상 미리보기가 실제 분석/목록검사 결과 색상과 맞게 보이도록 수정했습니다."
+      ]
+    },
     {
       "version": "8.7.4",
       "released_at": "2026-04-26",
@@ -71,15 +84,6 @@
         "자동 업데이트 후 이전 버전 정리와 진행 완료 확인이 공백 포함 경로에서도 안정적으로 동작하도록 수정",
         "Qt 화면으로 실행한 새 버전에서도 이전에 확인한 버전 이후의 패치노트가 시작 시 표시되도록 수정",
         "Qt 화면에서도 업데이트 후 이전 버전 정리 실패 안내와 임시 업데이트 파일 정리가 동작하도록 보강"
-      ]
-    },
-    {
-      "version": "8.7.0",
-      "released_at": "2026-04-25",
-      "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v8.7.0",
-      "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v8.7.0/Manga.Library.Scanner.v8.7.0.exe",
-      "notes": [
-        "자동 업데이트 후 이전 버전 정리와 진행 완료 확인이 공백 포함 경로에서도 안정적으로 동작하도록 수정"
       ]
     }
   ]

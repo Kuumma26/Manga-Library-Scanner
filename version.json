@@ -1,19 +1,27 @@
 {
-  "version": "8.7.8",
+  "version": "8.7.9",
   "released_at": "2026-05-02",
-  "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v8.7.8",
-  "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v8.7.8/Manga.Library.Scanner.v8.7.8.exe",
+  "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v8.7.9",
+  "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v8.7.9/Manga.Library.Scanner.v8.7.9.exe",
   "notes": [
-    "ZIP/CBZ 안에 텍스트/NFO/URL/DB 같은 부가 파일이 들어 있을 때 압축 손상으로 잘못 표시될 수 있던 문제를 수정했습니다.",
-    "이전 버전의 ZIP/CBZ 손상 검사 캐시 중 정상 결과는 재사용하고, 손상 의심 결과만 다음 검사 때 자동으로 다시 확인하도록 보완했습니다.",
-    "목록 검사에서 소장 권수가 `권수 미상`으로 저장된 항목도 파일명에 권수 정보가 있으면 다시 반영하도록 개선했습니다.",
-    "`상/하`, `상/중/하` 권 구성과 숫자 없는 단권 파일도 권수 정보로 인식하도록 개선했습니다.",
-    "숫자 권수와 `상/하` 같은 권 라벨이 함께 있어도 목록 표시와 저장/복원이 안정적으로 동작하도록 보완했습니다.",
-    "숫자 권수와 `상/하` 권 라벨이 섞인 항목도 라이브러리 저장/불러오기에서 오류가 나지 않도록 보완했습니다.",
-    "숫자 권수와 `상/하` 권 라벨이 함께 표시될 때도 `1, 상~하`처럼 보기 좋게 정리되도록 보완했습니다.",
-    "부모 시리즈 폴더 아래의 별도 제목 파일은 숫자 없는 단일 파일 추론이 과하게 적용되지 않도록 보완했습니다."
+    "자동 업데이트 직후 새 버전이 시작 마커를 남기기 전에 종료되면 더 빠르게 재시도하도록 보완했습니다.",
+    "결과 목록에서 제목/크기/권수/경로 헤더 클릭 정렬이 다시 동작하도록 수정했습니다.",
+    "결과 목록에서 휠을 빠르게 굴릴 때 가로 스크롤이 갑자기 끝으로 이동할 수 있는 증상을 줄였습니다.",
+    "상/중/하 권수 표기를 범위 형태가 아니라 `상, 중, 하`처럼 쉼표 구분으로 표시하도록 다듬었습니다."
   ],
   "releases": [
+    {
+      "version": "8.7.9",
+      "released_at": "2026-05-02",
+      "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v8.7.9",
+      "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v8.7.9/Manga.Library.Scanner.v8.7.9.exe",
+      "notes": [
+        "자동 업데이트 직후 새 버전이 시작 마커를 남기기 전에 종료되면 더 빠르게 재시도하도록 보완했습니다.",
+        "결과 목록에서 제목/크기/권수/경로 헤더 클릭 정렬이 다시 동작하도록 수정했습니다.",
+        "결과 목록에서 휠을 빠르게 굴릴 때 가로 스크롤이 갑자기 끝으로 이동할 수 있는 증상을 줄였습니다.",
+        "상/중/하 권수 표기를 범위 형태가 아니라 `상, 중, 하`처럼 쉼표 구분으로 표시하도록 다듬었습니다."
+      ]
+    },
     {
       "version": "8.7.8",
       "released_at": "2026-05-02",
@@ -102,15 +110,6 @@
         "도움말, 패치노트, 메인 결과 비교 요약에서 불필요한 저장 버튼을 제거해 버튼 구성을 단순하게 정리했습니다.",
         "Midnight Neon 테마에서 메인 목록과 키워드 편집 영역의 스크롤바 손잡이/배경 색상 차이를 키워 더 잘 보이도록 조정했습니다.",
         "환경설정의 해상도 색상과 목록 검사 상태 색상 미리보기가 실제 분석/목록검사 결과 색상과 맞게 보이도록 수정했습니다."
-      ]
-    },
-    {
-      "version": "8.7.4",
-      "released_at": "2026-04-26",
-      "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v8.7.4",
-      "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v8.7.4/Manga.Library.Scanner.v8.7.4.exe",
-      "notes": [
-        "목록과 목록 검사에서 글자가 실제로 잘린 경우에만 툴팁이 표시되도록 개선했습니다."
       ]
     }
   ]

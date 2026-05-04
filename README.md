@@ -2,7 +2,7 @@
   <h1>📚 Manga Library Scanner</h1>
   <p><b>로컬 만화 라이브러리를 초고속으로 스캔하고 정밀하게 관리하는 강력한 Windows 전용 유틸리티</b></p>
   
-  [![Version](https://img.shields.io/badge/version-v8.7.5-blue.svg)](https://github.com/Kuumma26/Manga-Library-Scanner/releases)
+  [![Latest Release](https://img.shields.io/github/v/release/Kuumma26/Manga-Library-Scanner?label=release)](https://github.com/Kuumma26/Manga-Library-Scanner/releases)
   [![Platform](https://img.shields.io/badge/platform-Windows-lightgrey.svg)]()
   [![Python](https://img.shields.io/badge/python-3.13-blue.svg)]()
   [![PyQt6](https://img.shields.io/badge/UI-PyQt6%20%7C%20Tkinter-brightgreen.svg)]()

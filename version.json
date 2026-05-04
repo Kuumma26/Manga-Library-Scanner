@@ -1,25 +1,16 @@
 {
-  "version": "8.9.0",
+  "version": "8.8.8",
   "released_at": "2026-05-04",
-  "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v8.9.0",
-  "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v8.9.0/Manga.Library.Scanner.v8.9.0.exe",
+  "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v8.8.8",
+  "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v8.8.8/Manga.Library.Scanner.v8.8.8.exe",
   "notes": [
-    "자동 업데이트 확인 중 시작 목록 불러오기와 업데이트창이 겹치며 업데이트 흐름이 불안정해지던 문제를 수정했습니다.",
-    "자동 업데이트 확인과 새 버전 실행 흐름의 안정성을 개선했습니다.",
-    "GitHub 릴리즈 패치노트에 현재 배포 버전 내용만 표시되도록 정리했습니다."
+    "스캔 완료 후 결과 목록을 화면에 표시하는 동안 프로그램이 멈춘 것처럼 보일 수 있던 문제를 개선했습니다.",
+    "결과 목록 표시 단계에서 문제가 생겼을 때 멈춘 상태로 남지 않고 오류 상태와 진단 로그를 남기도록 보강했습니다.",
+    "자동 업데이트 직후 처음 실행된 새 버전에서 스캔 후 목록 표시가 불안정해질 수 있던 문제를 수정했습니다.",
+    "자동 업데이트 후 생성되는 런타임 임시 폴더가 프로그램 종료 후에도 남을 수 있던 문제를 수정했습니다.",
+    "시작 로딩과 스캔 완료 처리가 겹칠 때 스캔 결과가 뒤늦은 로딩 결과로 덮일 수 있는 상황을 방지했습니다."
   ],
   "releases": [
-    {
-      "version": "8.9.0",
-      "released_at": "2026-05-04",
-      "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v8.9.0",
-      "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v8.9.0/Manga.Library.Scanner.v8.9.0.exe",
-      "notes": [
-        "자동 업데이트 확인 중 시작 목록 불러오기와 업데이트창이 겹치며 업데이트 흐름이 불안정해지던 문제를 수정했습니다.",
-        "자동 업데이트 확인과 새 버전 실행 흐름의 안정성을 개선했습니다.",
-        "GitHub 릴리즈 패치노트에 현재 배포 버전 내용만 표시되도록 정리했습니다."
-      ]
-    },
     {
       "version": "8.8.8",
       "released_at": "2026-05-04",

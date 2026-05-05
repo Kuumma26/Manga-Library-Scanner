@@ -1,6 +1,6 @@
 {
   "enabled": true,
-  "min_version": "",
+  "min_version": "8.9.6",
   "notice": "",
   "max_message_chars": 3900,
   "include_log_default": false

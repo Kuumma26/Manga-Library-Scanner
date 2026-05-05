@@ -1,17 +1,23 @@
 {
-  "version": "8.9.4",
+  "version": "8.9.5",
   "released_at": "2026-05-05",
-  "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v8.9.4",
-  "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v8.9.4/Manga.Library.Scanner.v8.9.4.exe",
+  "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v8.9.5",
+  "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v8.9.5/Manga.Library.Scanner.v8.9.5.exe",
   "notes": [
-    "프로그램 시작, 검색, 환경설정 반영 등으로 결과 목록을 다시 표시할 때도 진행률 표시가 함께 움직이도록 개선",
-    "`01.zip`, `01권_waifu2x...`, `3권완결(연재)`처럼 실제 권수 표기가 있는 파일이 누락 의심으로 잘못 표시되던 문제 수정",
-    "누락 의심 표시와 도움말이 실제 권수 누락 기준만 설명하도록 정리",
-    "`1~50, 52`처럼 중간에 한 권만 빠진 긴 시리즈가 누락 의심으로 표시되지 않을 수 있던 문제 수정",
-    "스캔 직후 누락 체크 보기에서 이전 결과가 남아 일부 누락 항목만 보일 수 있던 문제 수정",
-    "누락 제외 키워드가 글자 단위로 잘못 적용되어 누락 의심 항목이 대부분 숨겨질 수 있던 문제 수정"
+    "프로그램 시작 시 저장된 목록 표시가 끝난 뒤 패치노트와 자동 업데이트 안내가 뜨도록 개선",
+    "자동 업데이트 진행과 임시 폴더 정리 안정성 개선"
   ],
   "releases": [
+    {
+      "version": "8.9.5",
+      "released_at": "2026-05-05",
+      "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v8.9.5",
+      "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v8.9.5/Manga.Library.Scanner.v8.9.5.exe",
+      "notes": [
+        "프로그램 시작 시 저장된 목록 표시가 끝난 뒤 패치노트와 자동 업데이트 안내가 뜨도록 개선",
+        "자동 업데이트 진행과 임시 폴더 정리 안정성 개선"
+      ]
+    },
     {
       "version": "8.9.4",
       "released_at": "2026-05-05",
@@ -74,19 +80,6 @@
         "저장된 목록을 비울 때 검색어와 목록 정렬 상태도 기본값으로 정리되도록 개선했습니다.",
         "프로그램 시작 후 저장된 목록을 불러오거나 폴더 스캔을 완료했을 때 이전 정렬 상태가 남아 목록 순서가 달라질 수 있던 문제를 수정했습니다.",
         "GitHub 릴리즈 패치노트에 현재 배포 버전 내용만 표시되도록 정리했습니다."
-      ]
-    },
-    {
-      "version": "8.8.8",
-      "released_at": "2026-05-04",
-      "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v8.8.8",
-      "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v8.8.8/Manga.Library.Scanner.v8.8.8.exe",
-      "notes": [
-        "스캔 완료 후 결과 목록을 화면에 표시하는 동안 프로그램이 멈춘 것처럼 보일 수 있던 문제를 개선했습니다.",
-        "결과 목록 표시 단계에서 문제가 생겼을 때 멈춘 상태로 남지 않고 오류 상태와 진단 로그를 남기도록 보강했습니다.",
-        "자동 업데이트 직후 처음 실행된 새 버전에서 스캔 후 목록 표시가 불안정해질 수 있던 문제를 수정했습니다.",
-        "자동 업데이트 후 생성되는 런타임 임시 폴더가 프로그램 종료 후에도 남을 수 있던 문제를 수정했습니다.",
-        "시작 로딩과 스캔 완료 처리가 겹칠 때 스캔 결과가 뒤늦은 로딩 결과로 덮일 수 있는 상황을 방지했습니다."
       ]
     }
   ]

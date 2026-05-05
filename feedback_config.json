@@ -1,0 +1,7 @@
+{
+  "enabled": true,
+  "min_version": "",
+  "notice": "",
+  "max_message_chars": 3900,
+  "include_log_default": false
+}

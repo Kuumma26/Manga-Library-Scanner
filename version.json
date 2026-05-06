@@ -1,14 +1,21 @@
 {
-  "version": "8.9.7",
+  "version": "8.9.8",
   "released_at": "2026-05-06",
-  "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v8.9.7",
-  "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v8.9.7/Manga.Library.Scanner.v8.9.7.exe",
+  "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v8.9.8",
+  "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v8.9.8/Manga.Library.Scanner.v8.9.8.exe",
   "notes": [
-    "프로그램 안에서 바로 의견이나 오류 내용을 보낼 수 있는 피드백 기능 추가",
-    "피드백을 보낼 수 없는 상황에는 이유와 남은 대기 시간을 안내하도록 개선",
-    "피드백 전송 실패 시 작성 내용을 클립보드에 복사해 다른 채널로 전달할 수 있도록 보강"
+    "메인 목록에서 제목/크기/권수/날짜/경로 컬럼 너비를 마우스로 조절할 수 없던 문제 수정"
   ],
   "releases": [
+    {
+      "version": "8.9.8",
+      "released_at": "2026-05-06",
+      "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v8.9.8",
+      "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v8.9.8/Manga.Library.Scanner.v8.9.8.exe",
+      "notes": [
+        "메인 목록에서 제목/크기/권수/날짜/경로 컬럼 너비를 마우스로 조절할 수 없던 문제 수정"
+      ]
+    },
     {
       "version": "8.9.7",
       "released_at": "2026-05-06",
@@ -60,18 +67,6 @@
         "결과 목록 표시 중 rows와 항목 준비 단계가 비슷한 비중으로 진행률 막대에 반영되도록 개선",
         "메인 목록에서 빠르게 휠을 움직일 때 가로 스크롤이 의도치 않게 이동되는 현상 방지 보강",
         "도움말의 자동 업데이트 파일명 안내를 현재 고정 실행 파일명 방식에 맞게 수정"
-      ]
-    },
-    {
-      "version": "8.9.2",
-      "released_at": "2026-05-05",
-      "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v8.9.2",
-      "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v8.9.2/Manga.Library.Scanner.v8.9.2.exe",
-      "notes": [
-        "Qt 메인 화면의 업데이트 버튼 문구가 `업데이트 확인`으로 바뀌지 않고 `↑업데이트`로 유지되도록 수정했습니다.",
-        "결과 목록에 표시 텍스트가 같은 항목이 여러 개 있어도 파일 위치 열기/복사 대상이 서로 섞이지 않도록 수정했습니다.",
-        "경로 표시 옵션을 바꿨을 때 결과 목록의 경로 표시가 이전 표시 방식으로 남을 수 있는 문제를 방지했습니다.",
-        "하위 폴더가 많은 스캔에서 대기 작업이 과하게 쌓이지 않도록 조정해 대량 폴더 스캔 안정성을 개선했습니다."
       ]
     }
   ]

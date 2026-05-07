@@ -1,48 +1,57 @@
 <div align="center">
-  <h1>📚 Manga Library Scanner</h1>
-  <p><b>로컬 만화 라이브러리를 초고속으로 스캔하고 정밀하게 관리하는 강력한 Windows 전용 유틸리티</b></p>
-  
-  [![Latest Release](https://img.shields.io/badge/release-v8.10.1-blue)](https://github.com/Kuumma26/Manga-Library-Scanner/releases)
-  [![Platform](https://img.shields.io/badge/platform-Windows-lightgrey.svg)]()
-  [![Python](https://img.shields.io/badge/python-3.13-blue.svg)]()
-  [![PyQt6](https://img.shields.io/badge/UI-PyQt6%20%7C%20Tkinter-brightgreen.svg)]()
+  <h1>Manga Library Scanner</h1>
+  <p><b>PC와 NAS에 보관한 만화 압축 파일을 빠르게 스캔하고 정리하는 Windows용 라이브러리 관리 도구</b></p>
+
+  [![Latest Release](https://img.shields.io/github/v/release/Kuumma26/Manga-Library-Scanner?label=release)](https://github.com/Kuumma26/Manga-Library-Scanner/releases/latest)
+  ![Platform](https://img.shields.io/badge/platform-Windows-lightgrey.svg)
+  ![Runtime](https://img.shields.io/badge/runtime-Python%203.13-blue.svg)
+  ![UI](https://img.shields.io/badge/UI-Qt%20%7C%20Tkinter-brightgreen.svg)
 </div>
 
 <br>
 
-Manga Library Scanner는 PC나 NAS에 저장된 방대한 양의 만화 압축 파일(ZIP, RAR, 7Z, CBZ, CBR)을 빠르게 스캔하여 목록화하고, 내부 화질을 분석하며, 손쉽게 검색 및 대조할 수 있는 도구입니다.
+Manga Library Scanner는 ZIP, RAR, 7Z, CBZ, CBR, PDF 등으로 보관한 만화 파일을 스캔해 시리즈별 목록으로 정리하고, 해상도 분석, 중복/누락 확인, 목록 비교를 도와주는 도구입니다.
 
-## ✨ 주요 기능 (Key Features)
+## 주요 기능
 
-* ⚡ **초고속 스마트 스캔 및 캐싱**
-  * 압축 파일들을 순식간에 읽어 들이고 `scan_cache.json`을 통해 다음 로딩 시간을 획기적으로 단축합니다.
-* 🔍 **정밀 압축 파일 내부 분석**
-  * 압축을 풀지 않고도 내부 이미지의 화질(가로/세로 해상도), 페이지 수, 용량 등을 정밀하게 분석합니다.
-* 🎨 **모던 UI 및 커스텀 테마**
-  * 세련된 PyQt6 기반 화면을 제공하며, 취향에 맞는 다양한 테마(Midnight Neon, Liquid Glass 등)를 지원합니다.
-* 📊 **강력한 목록 대조 및 관리**
-  * '목록 검사', '통합 비교' 기능을 통해 내가 보유한 목록과 외부 목록(클립보드 등)을 한눈에 비교하고 빈 곳을 채울 수 있습니다.
-* 🔄 **원클릭 자동 업데이트 시스템**
-  * GitHub 저장소와 연동된 내장 오토 업데이터로, 프로그램 내에서 알림을 받고 클릭 한 번으로 이전 버전 찌꺼기 없이 최신 버전을 유지합니다.
+* **빠른 폴더 스캔과 저장된 목록**
+  * 한 번 스캔한 목록은 다음 실행 때 빠르게 다시 불러올 수 있습니다.
+  * 설정한 확장자와 최소 파일 크기 기준에 따라 필요한 파일만 목록에 포함합니다.
+* **해상도와 압축 파일 검사**
+  * 압축 파일 내부 이미지의 해상도, 파일 수, 용량을 분석합니다.
+  * 선택 시 Ungas 포함 항목, ZIP/CBZ 손상, 중첩 압축 여부도 함께 확인할 수 있습니다.
+* **목록 검색과 비교**
+  * 메인 목록에서 빠르게 검색하고, 중복/누락 의심 항목만 따로 볼 수 있습니다.
+  * 게시글이나 보유 목록을 붙여넣어 실제 보유 여부를 비교할 수 있습니다.
+* **개별 분석과 통합 비교**
+  * 특정 파일이나 폴더만 따로 분석하거나, 좌우 목록을 비교해 차이를 확인할 수 있습니다.
+* **자동 업데이트**
+  * GitHub 릴리즈를 기준으로 새 버전을 확인하고, 프로그램 안에서 업데이트를 진행할 수 있습니다.
+  * 자동 업데이트 후 설치 위치에서는 `MangaLibraryScanner.exe` 고정명으로 실행됩니다.
+* **피드백 보내기**
+  * 프로그램 안에서 버그나 개선 의견을 바로 보낼 수 있고, 전송이 어려우면 작성한 내용만 복사해 둘 수 있습니다.
 
-## 🚀 설치 및 사용 방법
+## 설치 및 사용
 
-1. [GitHub Releases](https://github.com/Kuumma26/Manga-Library-Scanner/releases) 페이지로 이동합니다.
-2. 가장 최신 버전의 `Manga.Library.Scanner.vX.X.X.exe` 파일을 다운로드합니다.
-3. 별도의 설치 과정 없이, 원하시는 폴더에 넣고 바로 실행하시면 됩니다! (포터블 앱)
-4. **환경설정(⚙️)** 메뉴에서 만화가 저장된 폴더 경로를 추가하고 스캔을 시작해 보세요.
+1. [최신 릴리즈](https://github.com/Kuumma26/Manga-Library-Scanner/releases/latest) 페이지를 엽니다.
+2. `Manga.Library.Scanner.vX.Y.Z.exe` 형식의 최신 실행 파일을 내려받습니다.
+3. 원하는 폴더에 넣고 실행합니다. 별도 설치 과정은 필요 없습니다.
+4. 환경 설정에서 스캔할 폴더와 확장자, 검사 옵션을 확인한 뒤 폴더 스캔을 시작합니다.
 
-## 💡 팁 및 단축키
+## 사용 팁
 
-* **클립보드 검색**: 외부 브라우저 등에서 텍스트를 복사한 뒤 미리 설정된 글로벌 단축키를 누르면 즉시 앱이 활성화되며 검색 및 대조가 진행됩니다.
-* 메인 목록에서 항목을 더블클릭 하거나 우클릭하여 개별 파일 분석 및 파일 열기가 가능합니다.
+* 통합 검색에 제목 일부를 입력하면 메인 목록이 바로 필터링됩니다.
+* 메인 목록에서 더블클릭하면 파일 위치를 열 수 있고, 우클릭으로 개별 분석을 실행할 수 있습니다.
+* 목록 검사는 게시글 원문을 그대로 붙여넣어도 제목 줄 위주로 정리해 비교합니다.
+* 검사/분석 캐시는 해상도, Ungas, ZIP/CBZ 손상 같은 반복 검사를 줄이는 데 사용됩니다.
 
-## 🛠 시스템 요구사항
+## 시스템 요구사항
 
-* Windows 10 또는 Windows 11 (64-bit)
-* 압축 파일 분석을 위해 로컬 디스크 및 SMB/NAS 네트워크 드라이브 환경 지원
+* Windows 10 또는 Windows 11 64-bit
+* 로컬 드라이브 또는 SMB/NAS 공유 폴더 접근 권한
 
 ---
+
 <div align="center">
-  <sub>만들어진 버그는 잡고, 편의성은 끝없이 올립니다. 🚀</sub>
+  <sub>최신 버전과 변경 내역은 GitHub Releases에서 확인할 수 있습니다.</sub>
 </div>

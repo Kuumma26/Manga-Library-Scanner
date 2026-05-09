@@ -1,12 +1,31 @@
 {
-  "version": "8.10.4",
+  "version": "8.10.5",
   "released_at": "2026-05-09",
-  "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v8.10.4",
-  "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v8.10.4/Manga.Library.Scanner.v8.10.4.exe",
+  "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v8.10.5",
+  "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v8.10.5/Manga.Library.Scanner.v8.10.5.exe",
   "notes": [
-    "빌드된 실행 파일에 자동 업데이트 인증서 검증용 인증서 묶음이 안정적으로 포함되도록 보강했습니다."
+    "RAR/CBR 파일의 해상도 분석에서 Windows 기본 압축 해제 도구를 자동으로 활용해 이미지 오류 표시를 줄였습니다.",
+    "RAR/CBR 분석 도구가 없는 PC에서는 원인과 공식 7-Zip 다운로드 안내를 보여주도록 했습니다.",
+    "RAR/CBR 분석 중 압축 해제 도구 문제로 생긴 임시 오류 결과는 캐시에 남기지 않아, 도구 설치 후 다시 분석하면 새 결과를 확인할 수 있도록 했습니다.",
+    "목록 검사에서 `Happy! (해피!)`처럼 짧은 제목이 더 긴 다른 작품명 뒤쪽 단어와 겹친다는 이유만으로 잘못 부분 보유 처리되지 않도록 했습니다.",
+    "목록 검사 입력의 `[1520px/ 번역]`처럼 괄호 안에 `/`가 들어간 메타 정보는 다른 작품으로 쪼개지지 않도록 정리했습니다.",
+    "검색에서 `[연]` 같은 대괄호 입력을 별도 우선 규칙으로 처리하지 않도록 바꾸고, 관련 검색 팁 문구도 제거했습니다."
   ],
   "releases": [
+    {
+      "version": "8.10.5",
+      "released_at": "2026-05-09",
+      "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v8.10.5",
+      "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v8.10.5/Manga.Library.Scanner.v8.10.5.exe",
+      "notes": [
+        "RAR/CBR 파일의 해상도 분석에서 Windows 기본 압축 해제 도구를 자동으로 활용해 이미지 오류 표시를 줄였습니다.",
+        "RAR/CBR 분석 도구가 없는 PC에서는 원인과 공식 7-Zip 다운로드 안내를 보여주도록 했습니다.",
+        "RAR/CBR 분석 중 압축 해제 도구 문제로 생긴 임시 오류 결과는 캐시에 남기지 않아, 도구 설치 후 다시 분석하면 새 결과를 확인할 수 있도록 했습니다.",
+        "목록 검사에서 `Happy! (해피!)`처럼 짧은 제목이 더 긴 다른 작품명 뒤쪽 단어와 겹친다는 이유만으로 잘못 부분 보유 처리되지 않도록 했습니다.",
+        "목록 검사 입력의 `[1520px/ 번역]`처럼 괄호 안에 `/`가 들어간 메타 정보는 다른 작품으로 쪼개지지 않도록 정리했습니다.",
+        "검색에서 `[연]` 같은 대괄호 입력을 별도 우선 규칙으로 처리하지 않도록 바꾸고, 관련 검색 팁 문구도 제거했습니다."
+      ]
+    },
     {
       "version": "8.10.4",
       "released_at": "2026-05-09",
@@ -79,21 +98,6 @@
         "손상 결과 보기 버튼의 툴팁도 다른 버튼과 같은 안정 표시 방식으로 통일",
         "메인 목록 날짜 컬럼에 살짝 여백을 추가해 컬럼 구분선과 날짜가 붙어 보이지 않게 조정",
         "피드백 창의 보내기/내용 복사 버튼에 동작 설명 툴팁 추가"
-      ]
-    },
-    {
-      "version": "8.10.0",
-      "released_at": "2026-05-06",
-      "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v8.10.0",
-      "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v8.10.0/Manga.Library.Scanner.v8.10.0.exe",
-      "notes": [
-        "자동 업데이트 실패 안내에서 확인할 로그 파일과 로그 폴더를 더 명확히 표시하도록 개선",
-        "GitHub README의 릴리즈 버전 배지가 `invalid`로 표시될 수 있던 문제 수정",
-        "피드백 전송 제한 안내를 남은 시간이 아니라 다시 보낼 수 있는 시각으로 표시하도록 개선",
-        "피드백 전송 기록 항목이 없는 새 설정에서는 첫 1분 동안 전송을 제한하도록 보완",
-        "피드백 전송 제한 안내 문구가 5분 제한과 새 설정 1분 제한을 함께 설명하도록 다듬음",
-        "피드백 창의 크기와 콤보박스/버튼 높이가 UI 배율을 따라가도록 개선",
-        "피드백 창 콤보박스와 버튼 높이/화살표 버튼 크기가 환경설정 컨트롤과 어울리도록 조정"
       ]
     }
   ]

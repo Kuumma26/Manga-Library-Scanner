@@ -1,20 +1,21 @@
 {
-  "version": "8.10.3",
+  "version": "8.10.4",
   "released_at": "2026-05-09",
-  "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v8.10.3",
-  "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v8.10.3/Manga.Library.Scanner.v8.10.3.exe",
+  "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v8.10.4",
+  "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v8.10.4/Manga.Library.Scanner.v8.10.4.exe",
   "notes": [
-    "전체 목록 표시와 정렬 준비 속도를 개선했습니다.",
-    "검색어 입력 후 첫 검색이 더 빠르게 시작되도록 검색 준비 과정을 개선했습니다.",
-    "목록 검사에서 파일명 기준 별칭이 있는 작품을 더 정확하고 빠르게 찾도록 개선했습니다.",
-    "목록 검사에서 확장자, 완결/번외 표시, 작가명, 원제 표기, 일본어 원제 꼬리표가 붙은 입력도 작품명과 권수를 더 정확하게 분리하도록 개선했습니다.",
-    "목록 검사에서 원제 괄호, 화수 뒤 권수 괄호, 화수 뒤 알파벳 꼬리표, 권수 뒤 작가명 표기가 섞인 입력도 더 정확하게 해석하도록 보강했습니다.",
-    "목록 검사에서 비슷한 문구가 일부만 겹치는 다른 작품으로 잘못 붙는 오탐을 줄였습니다.",
-    "목록 검사 등에서 긴 툴팁이 화면 반대편으로 크게 튀어 보이던 위치 문제를 수정했습니다.",
-    "스캔 임시 미리보기 목록이 최종 결과처럼 표시되어 크기/권수/날짜 칸이 비어 보이던 문제를 수정했습니다.",
-    "소스 파일(.pyw)로 직접 실행한 경우 제목 표시줄 끝에 (pyw)가 표시되도록 했습니다."
+    "빌드된 실행 파일에 자동 업데이트 인증서 검증용 인증서 묶음이 안정적으로 포함되도록 보강했습니다."
   ],
   "releases": [
+    {
+      "version": "8.10.4",
+      "released_at": "2026-05-09",
+      "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v8.10.4",
+      "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v8.10.4/Manga.Library.Scanner.v8.10.4.exe",
+      "notes": [
+        "빌드된 실행 파일에 자동 업데이트 인증서 검증용 인증서 묶음이 안정적으로 포함되도록 보강했습니다."
+      ]
+    },
     {
       "version": "8.10.3",
       "released_at": "2026-05-09",
@@ -93,17 +94,6 @@
         "피드백 전송 제한 안내 문구가 5분 제한과 새 설정 1분 제한을 함께 설명하도록 다듬음",
         "피드백 창의 크기와 콤보박스/버튼 높이가 UI 배율을 따라가도록 개선",
         "피드백 창 콤보박스와 버튼 높이/화살표 버튼 크기가 환경설정 컨트롤과 어울리도록 조정"
-      ]
-    },
-    {
-      "version": "8.9.9",
-      "released_at": "2026-05-06",
-      "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v8.9.9",
-      "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v8.9.9/Manga.Library.Scanner.v8.9.9.exe",
-      "notes": [
-        "자동 업데이트 중 기존 실행 파일이 잠겨 있을 때 대기와 안내가 더 명확하게 동작하도록 개선",
-        "자동 업데이트 진행창이 보이지 않을 수 있던 문제 수정",
-        "통합 비교창이 메인창보다 항상 위에 머무르던 문제 수정"
       ]
     }
   ]

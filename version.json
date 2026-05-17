@@ -3,7 +3,22 @@
   "released_at": "2026-05-18",
   "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v8.11.3",
   "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v8.11.3/Manga.Library.Scanner.v8.11.3.exe",
-  "notices": [],
+  "notices": [
+    {
+      "text": "메인 목록에서 시리즈명이나 파일명 위에 마우스를 올리면 표지 미리보기를 사용할 수 있습니다. 환경설정 > 화면에서 긴 제목/파일명 툴팁과 표지 미리보기 중 무엇을 우선할지, 그리고 미리보기 크기를 조절할 수 있습니다.",
+      "condition": {
+        "type": "until",
+        "version": "v8.11.5"
+      }
+    },
+    {
+      "text": "오탐, 누락, 오류 피드백은 문제 제목, 실제 소장 파일명, 검색어 또는 목록 검사 입력, 앱 버전처럼 재현에 필요한 정보를 자세히 적어주셔야 더 정확하게 개선할 수 있습니다.",
+      "condition": {
+        "type": "until",
+        "version": "v8.11.5"
+      }
+    }
+  ],
   "notes": [
     "패치노트 전체보기에서는 버전 조건이 붙은 안내가 무조건 노출되지 않도록 정리하고, 업데이트창과 업데이트 후 자동 패치노트에서는 기존처럼 해당 버전에 맞는 안내만 보이도록 개선",
     "메인 목록에서 시리즈명이나 파일명 위에 마우스를 올리면 압축 파일, 이미지, PDF 첫 페이지를 표지처럼 미리 볼 수 있게 추가하고, 환경설정 화면 탭에서 표시 우선순위와 크기를 조절할 수 있도록 정리",
@@ -19,7 +34,22 @@
       "released_at": "2026-05-18",
       "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v8.11.3",
       "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v8.11.3/Manga.Library.Scanner.v8.11.3.exe",
-      "notices": [],
+      "notices": [
+        {
+          "text": "메인 목록에서 시리즈명이나 파일명 위에 마우스를 올리면 표지 미리보기를 사용할 수 있습니다. 환경설정 > 화면에서 긴 제목/파일명 툴팁과 표지 미리보기 중 무엇을 우선할지, 그리고 미리보기 크기를 조절할 수 있습니다.",
+          "condition": {
+            "type": "until",
+            "version": "v8.11.5"
+          }
+        },
+        {
+          "text": "오탐, 누락, 오류 피드백은 문제 제목, 실제 소장 파일명, 검색어 또는 목록 검사 입력, 앱 버전처럼 재현에 필요한 정보를 자세히 적어주셔야 더 정확하게 개선할 수 있습니다.",
+          "condition": {
+            "type": "until",
+            "version": "v8.11.5"
+          }
+        }
+      ],
       "notes": [
         "패치노트 전체보기에서는 버전 조건이 붙은 안내가 무조건 노출되지 않도록 정리하고, 업데이트창과 업데이트 후 자동 패치노트에서는 기존처럼 해당 버전에 맞는 안내만 보이도록 개선",
         "메인 목록에서 시리즈명이나 파일명 위에 마우스를 올리면 압축 파일, 이미지, PDF 첫 페이지를 표지처럼 미리 볼 수 있게 추가하고, 환경설정 화면 탭에서 표시 우선순위와 크기를 조절할 수 있도록 정리",

@@ -1,13 +1,25 @@
 {
-  "version": "8.11.8",
+  "version": "8.11.9",
   "released_at": "2026-05-22",
-  "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v8.11.8",
-  "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v8.11.8/Manga.Library.Scanner.v8.11.8.exe",
+  "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v8.11.9",
+  "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v8.11.9/Manga.Library.Scanner.v8.11.9.exe",
   "notices": [],
   "notes": [
-    "자동 업데이트 중 새 버전 실행 확인 단계에서 진행창이 남아 있을 수 있던 문제를 보완했습니다."
+    "자동 업데이트 준비 단계에서 화면이 멈춘 것처럼 보일 수 있던 문제를 보완했습니다.",
+    "EXE 실행 시 저장된 라이브러리와 설정 파일을 실제 실행 폴더에서 더 안정적으로 불러오도록 수정했습니다."
   ],
   "releases": [
+    {
+      "version": "8.11.9",
+      "released_at": "2026-05-22",
+      "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v8.11.9",
+      "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v8.11.9/Manga.Library.Scanner.v8.11.9.exe",
+      "notices": [],
+      "notes": [
+        "자동 업데이트 준비 단계에서 화면이 멈춘 것처럼 보일 수 있던 문제를 보완했습니다.",
+        "EXE 실행 시 저장된 라이브러리와 설정 파일을 실제 실행 폴더에서 더 안정적으로 불러오도록 수정했습니다."
+      ]
+    },
     {
       "version": "8.11.8",
       "released_at": "2026-05-22",
@@ -74,33 +86,6 @@
         "완결, 전권, 합본, 통합본처럼 표시된 한 파일짜리 묶음은 목록 검사에서 보유로 더 자연스럽게 판정하도록 보강했습니다.",
         "피드백 전송 대기 중에는 남은 시간과 다시 보낼 수 있는 시각을 더 자세히 안내하고, 재전송 대기 시간을 더 짧게 조정했습니다.",
         "목록 검사에서 `보기에도 수상한 두 사람`처럼 가까운 제목 변형은 다시 더 자연스럽게 찾아주도록 보정했습니다."
-      ]
-    },
-    {
-      "version": "8.11.4",
-      "released_at": "2026-05-18",
-      "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v8.11.4",
-      "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v8.11.4/Manga.Library.Scanner.v8.11.4.exe",
-      "notices": [
-        {
-          "text": "메인 목록에서 시리즈명이나 파일명 위에 마우스를 올리면 표지 미리보기를 사용할 수 있습니다. 환경설정 > 화면에서 긴 제목/파일명 툴팁과 표지 미리보기 중 무엇을 우선할지, 그리고 미리보기 크기를 조절할 수 있습니다.",
-          "condition": {
-            "type": "until",
-            "version": "v8.11.6"
-          }
-        },
-        {
-          "text": "오탐, 누락, 오류 피드백은 문제 제목, 실제 소장 파일명, 검색어 또는 목록 검사 입력, 앱 버전처럼 재현에 필요한 정보를 자세히 적어주셔야 더 정확하게 개선할 수 있습니다.",
-          "condition": {
-            "type": "until",
-            "version": "v8.11.6"
-          }
-        }
-      ],
-      "notes": [
-        "패치노트의 안내 문구가 자동 업데이트창, 업데이트 후 자동 패치노트, 전체 패치노트 보기에서 모두 버전 조건에 맞춰 표시되도록 수정",
-        "표지 미리보기에서 압축 파일 안 첫 이미지를 고를 때 Windows/압축 프로그램과 같은 이름순을 따르도록 수정",
-        "새 설정의 마우스 올림 우선 표시 기본값을 표지 미리보기 우선에서 긴 제목/파일명 툴팁 우선으로 변경"
       ]
     }
   ]

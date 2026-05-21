@@ -1,21 +1,25 @@
 {
-  "version": "8.12.2",
+  "version": "8.12.3",
   "released_at": "2026-05-22",
-  "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v8.12.2",
-  "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v8.12.2/Manga.Library.Scanner.v8.12.2.exe",
+  "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v8.12.3",
+  "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v8.12.3/Manga.Library.Scanner.v8.12.3.exe",
   "notices": [],
   "notes": [
-    "메인 목록의 시리즈나 파일을 개별 분석 창 또는 통합 비교 창으로 끌어다 놓으면 바로 분석/비교 대상으로 추가할 수 있게 했습니다.",
-    "메인 목록에서 마우스를 올리면 긴 제목/파일명 툴팁 또는 표지 미리보기를 볼 수 있습니다. Shift를 누른 상태로 마우스를 올리면 환경설정에서 고른 우선 표시 방식과 반대 동작을 임시로 사용할 수 있습니다.",
-    "메인 목록에서 우클릭을 길게 누르면 해당 시리즈를 리디에서 바로 검색할 수 있습니다.",
-    "메인 목록 기본 조작 안내를 정리해 더블클릭, 우클릭, Shift+우클릭, Ctrl+우클릭, Ctrl+Shift+우클릭 같은 주요 동작을 한눈에 확인할 수 있게 했습니다.",
-    "목록 검사 제외 키워드를 추가해 원하지 않는 키워드가 포함된 항목을 별도로 분리할 수 있게 했고, 목록 검사 창에서도 바로 편집할 수 있게 했습니다.",
-    "한 파일짜리 완결/전권/합본 형태도 보유 항목으로 더 자연스럽게 판단하도록 목록 검사를 보강했습니다.",
-    "압축 파일 안에 여러 폴더가 있는 경우에도 각 폴더별 샘플 이미지가 빠지지 않도록 해상도 분석 결과 표시를 보강했습니다.",
-    "PDF 분석 기준 DPI를 환경설정에서 선택할 수 있게 했습니다.",
-    "자동 업데이트 준비, 다운로드, 검증, 새 버전 실행 단계의 안내와 안정성을 보강했습니다."
+    "메인 목록에서 시리즈명 위로 표지 미리보기를 볼 때 같은 시리즈의 표지 후보를 재사용해 마우스 이동이 더 부드럽게 느껴지도록 개선했습니다.",
+    "시리즈명이나 파일명 위에 마우스를 올려둔 뒤 Shift를 눌러도 표지 미리보기가 바로 뜨도록 보강했습니다."
   ],
   "releases": [
+    {
+      "version": "8.12.3",
+      "released_at": "2026-05-22",
+      "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v8.12.3",
+      "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v8.12.3/Manga.Library.Scanner.v8.12.3.exe",
+      "notices": [],
+      "notes": [
+        "메인 목록에서 시리즈명 위로 표지 미리보기를 볼 때 같은 시리즈의 표지 후보를 재사용해 마우스 이동이 더 부드럽게 느껴지도록 개선했습니다.",
+        "시리즈명이나 파일명 위에 마우스를 올려둔 뒤 Shift를 눌러도 표지 미리보기가 바로 뜨도록 보강했습니다."
+      ]
+    },
     {
       "version": "8.12.2",
       "released_at": "2026-05-22",
@@ -66,16 +70,6 @@
       "notes": [
         "자동 업데이트 준비 단계에서 화면이 멈춘 것처럼 보일 수 있던 문제를 보완했습니다.",
         "EXE 실행 시 저장된 라이브러리와 설정 파일을 실제 실행 폴더에서 더 안정적으로 불러오도록 수정했습니다."
-      ]
-    },
-    {
-      "version": "8.11.8",
-      "released_at": "2026-05-22",
-      "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v8.11.8",
-      "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v8.11.8/Manga.Library.Scanner.v8.11.8.exe",
-      "notices": [],
-      "notes": [
-        "자동 업데이트 중 새 버전 실행 확인 단계에서 진행창이 남아 있을 수 있던 문제를 보완했습니다."
       ]
     }
   ]

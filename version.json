@@ -1,14 +1,23 @@
 {
-  "version": "8.11.9",
+  "version": "8.12.0",
   "released_at": "2026-05-22",
-  "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v8.11.9",
-  "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v8.11.9/Manga.Library.Scanner.v8.11.9.exe",
+  "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v8.12.0",
+  "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v8.12.0/Manga.Library.Scanner.v8.12.0.exe",
   "notices": [],
   "notes": [
-    "자동 업데이트 준비 단계에서 화면이 멈춘 것처럼 보일 수 있던 문제를 보완했습니다.",
-    "EXE 실행 시 저장된 라이브러리와 설정 파일을 실제 실행 폴더에서 더 안정적으로 불러오도록 수정했습니다."
+    "자동 업데이트 배포를 위해 버전을 갱신했습니다."
   ],
   "releases": [
+    {
+      "version": "8.12.0",
+      "released_at": "2026-05-22",
+      "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v8.12.0",
+      "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v8.12.0/Manga.Library.Scanner.v8.12.0.exe",
+      "notices": [],
+      "notes": [
+        "자동 업데이트 배포를 위해 버전을 갱신했습니다."
+      ]
+    },
     {
       "version": "8.11.9",
       "released_at": "2026-05-22",
@@ -68,24 +77,6 @@
       "notes": [
         "PDF 분석에서 페이지 크기를 픽셀 해상도로 환산하는 기본 기준을 300dpi로 높이고, 환경설정에서 PDF 환산 DPI를 직접 고를 수 있게 개선",
         "목록 검사 제외 키워드와 도구 창 크기/위치 기억 설정이 프로그램 재실행 후에도 유지되도록 수정"
-      ]
-    },
-    {
-      "version": "8.11.5",
-      "released_at": "2026-05-19",
-      "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v8.11.5",
-      "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v8.11.5/Manga.Library.Scanner.v8.11.5.exe",
-      "notices": [],
-      "notes": [
-        "목록 검사에서 `어느 날 책이 되어버렸다!?`처럼 문장 구조만 비슷한 다른 작품으로 잘못 붙는 오탐을 줄였습니다.",
-        "목록 검사에 제외 키워드를 추가해 BL, 순정처럼 원하지 않는 분류를 별도 제외 상태로 분리할 수 있게 했습니다.",
-        "환경설정의 키워드 탭과 목록 검사 창에서 제외 키워드를 바로 조정할 수 있게 했습니다.",
-        "환경설정에서 목록 검사 제외 상태의 배경색도 직접 지정할 수 있게 하고, 기본 제외 색상을 더 차분하게 보이도록 조정했습니다.",
-        "목록 검사 창의 제외 키워드 편집을 환경설정과 같은 편집 화면으로 통일하고, 저장하면 바로 적용되도록 다듬었습니다.",
-        "통합 비교, 개별 분석, 목록 검사 창에서도 도구 창 크기와 위치 기억을 바로 켜고 끌 수 있게 했습니다.",
-        "완결, 전권, 합본, 통합본처럼 표시된 한 파일짜리 묶음은 목록 검사에서 보유로 더 자연스럽게 판정하도록 보강했습니다.",
-        "피드백 전송 대기 중에는 남은 시간과 다시 보낼 수 있는 시각을 더 자세히 안내하고, 재전송 대기 시간을 더 짧게 조정했습니다.",
-        "목록 검사에서 `보기에도 수상한 두 사람`처럼 가까운 제목 변형은 다시 더 자연스럽게 찾아주도록 보정했습니다."
       ]
     }
   ]

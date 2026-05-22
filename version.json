@@ -1,13 +1,25 @@
 {
-  "version": "8.12.4",
-  "released_at": "2026-05-22",
-  "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v8.12.4",
-  "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v8.12.4/Manga.Library.Scanner.v8.12.4.exe",
+  "version": "8.12.5",
+  "released_at": "2026-05-23",
+  "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v8.12.5",
+  "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v8.12.5/Manga.Library.Scanner.v8.12.5.exe",
   "notices": [],
   "notes": [
-    "표지 미리보기에서 검색/목록 갱신 후 이전 작품의 표지가 다른 작품에 잘못 따라붙을 수 있던 문제를 수정했습니다."
+    "목록 검사에서 `코미 양은 커뮤중입니다`처럼 긴 제목 안에 한 글자 오타가 있어도 나머지 제목과 권수 범위가 충분히 맞으면 보유 항목을 더 잘 찾도록 보강",
+    "표지 미리보기가 일시적으로 실패했을 때 실패 결과를 계속 재사용하지 않고 다음 마우스 올림에서 다시 불러오도록 수정"
   ],
   "releases": [
+    {
+      "version": "8.12.5",
+      "released_at": "2026-05-23",
+      "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v8.12.5",
+      "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v8.12.5/Manga.Library.Scanner.v8.12.5.exe",
+      "notices": [],
+      "notes": [
+        "목록 검사에서 `코미 양은 커뮤중입니다`처럼 긴 제목 안에 한 글자 오타가 있어도 나머지 제목과 권수 범위가 충분히 맞으면 보유 항목을 더 잘 찾도록 보강",
+        "표지 미리보기가 일시적으로 실패했을 때 실패 결과를 계속 재사용하지 않고 다음 마우스 올림에서 다시 불러오도록 수정"
+      ]
+    },
     {
       "version": "8.12.4",
       "released_at": "2026-05-22",
@@ -58,16 +70,6 @@
         "상단 업데이트 버튼을 눌렀을 때 업데이트 정보를 확인하는 동안 프로그램이 멈춘 것처럼 보이지 않도록 개선했습니다.",
         "실행 직후 자동 업데이트 확인이 진행 중일 때 상단 업데이트 버튼을 눌러도 요청이 무시되지 않고, 확인 완료 후 업데이트 창이 열리도록 수정했습니다.",
         "자동 업데이트 시작 직후 내부 오류로 다운로드 작업 폴더가 만들어지지 않던 문제를 수정했습니다."
-      ]
-    },
-    {
-      "version": "8.12.0",
-      "released_at": "2026-05-22",
-      "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v8.12.0",
-      "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v8.12.0/Manga.Library.Scanner.v8.12.0.exe",
-      "notices": [],
-      "notes": [
-        "자동 업데이트 배포를 위해 버전을 갱신했습니다."
       ]
     }
   ]

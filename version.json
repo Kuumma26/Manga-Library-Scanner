@@ -1,14 +1,25 @@
 {
-  "version": "8.12.5",
-  "released_at": "2026-05-23",
-  "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v8.12.5",
-  "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v8.12.5/Manga.Library.Scanner.v8.12.5.exe",
+  "version": "8.12.6",
+  "released_at": "2026-05-24",
+  "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v8.12.6",
+  "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v8.12.6/Manga.Library.Scanner.v8.12.6.exe",
   "notices": [],
   "notes": [
-    "목록 검사에서 `코미 양은 커뮤중입니다`처럼 긴 제목 안에 한 글자 오타가 있어도 나머지 제목과 권수 범위가 충분히 맞으면 보유 항목을 더 잘 찾도록 보강",
-    "표지 미리보기가 일시적으로 실패했을 때 실패 결과를 계속 재사용하지 않고 다음 마우스 올림에서 다시 불러오도록 수정"
+    "결과 목록에서 마우스를 올린 채 Shift를 눌렀을 때 기존 텍스트 툴팁이 표지 미리보기를 가리지 않도록 수정했습니다.",
+    "결과 목록을 다시 그릴 때 단일 파일 그룹의 불필요한 내부 정렬과 필터 보기 캐시 초기화를 줄여 목록 전환/갱신 부담을 낮췄습니다."
   ],
   "releases": [
+    {
+      "version": "8.12.6",
+      "released_at": "2026-05-24",
+      "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v8.12.6",
+      "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v8.12.6/Manga.Library.Scanner.v8.12.6.exe",
+      "notices": [],
+      "notes": [
+        "결과 목록에서 마우스를 올린 채 Shift를 눌렀을 때 기존 텍스트 툴팁이 표지 미리보기를 가리지 않도록 수정했습니다.",
+        "결과 목록을 다시 그릴 때 단일 파일 그룹의 불필요한 내부 정렬과 필터 보기 캐시 초기화를 줄여 목록 전환/갱신 부담을 낮췄습니다."
+      ]
+    },
     {
       "version": "8.12.5",
       "released_at": "2026-05-23",
@@ -57,19 +68,6 @@
         "압축 파일 안에 여러 폴더가 있는 경우에도 각 폴더별 샘플 이미지가 빠지지 않도록 해상도 분석 결과 표시를 보강했습니다.",
         "PDF 분석 기준 DPI를 환경설정에서 선택할 수 있게 했습니다.",
         "자동 업데이트 준비, 다운로드, 검증, 새 버전 실행 단계의 안내와 안정성을 보강했습니다."
-      ]
-    },
-    {
-      "version": "8.12.1",
-      "released_at": "2026-05-22",
-      "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v8.12.1",
-      "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v8.12.1/Manga.Library.Scanner.v8.12.1.exe",
-      "notices": [],
-      "notes": [
-        "자동 업데이트 준비 단계에서 파일 다운로드/검증/실행 준비 상태가 더 자세히 표시되도록 개선했습니다.",
-        "상단 업데이트 버튼을 눌렀을 때 업데이트 정보를 확인하는 동안 프로그램이 멈춘 것처럼 보이지 않도록 개선했습니다.",
-        "실행 직후 자동 업데이트 확인이 진행 중일 때 상단 업데이트 버튼을 눌러도 요청이 무시되지 않고, 확인 완료 후 업데이트 창이 열리도록 수정했습니다.",
-        "자동 업데이트 시작 직후 내부 오류로 다운로드 작업 폴더가 만들어지지 않던 문제를 수정했습니다."
       ]
     }
   ]

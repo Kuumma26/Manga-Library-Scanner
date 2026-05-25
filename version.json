@@ -1,13 +1,25 @@
 {
-  "version": "8.13.1",
+  "version": "8.13.2",
   "released_at": "2026-05-25",
-  "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v8.13.1",
-  "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v8.13.1/Manga.Library.Scanner.v8.13.1.exe",
+  "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v8.13.2",
+  "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v8.13.2/Manga.Library.Scanner.v8.13.2.exe",
   "notices": [],
   "notes": [
-    "자동 업데이트 준비 중 현재 실행에 필요한 임시 런타임 파일이 정리되어 업데이트가 실패할 수 있던 문제를 수정했습니다."
+    "새 설치나 자동 업데이트 직후 설정 파일에 목록 컬럼 너비가 아직 없을 때 결과 목록 컬럼이 좁게 초기화되던 문제를 수정했습니다.",
+    "자동 업데이트 직후 패치노트 표시 기준 버전을 보존해, 첫 표시 타이밍을 놓쳐도 다음 시작에서 패치노트를 볼 수 있도록 보강했습니다."
   ],
   "releases": [
+    {
+      "version": "8.13.2",
+      "released_at": "2026-05-25",
+      "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v8.13.2",
+      "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v8.13.2/Manga.Library.Scanner.v8.13.2.exe",
+      "notices": [],
+      "notes": [
+        "새 설치나 자동 업데이트 직후 설정 파일에 목록 컬럼 너비가 아직 없을 때 결과 목록 컬럼이 좁게 초기화되던 문제를 수정했습니다.",
+        "자동 업데이트 직후 패치노트 표시 기준 버전을 보존해, 첫 표시 타이밍을 놓쳐도 다음 시작에서 패치노트를 볼 수 있도록 보강했습니다."
+      ]
+    },
     {
       "version": "8.13.1",
       "released_at": "2026-05-25",
@@ -59,17 +71,6 @@
       "notices": [],
       "notes": [
         "리디 검색이 검색 결과 페이지에서 제목이 맞는 상세 결과를 찾으면 도서 상세 페이지까지 열고, 결과가 없거나 제목이 맞지 않으면 Google 검색으로 넘어가도록 보강했습니다."
-      ]
-    },
-    {
-      "version": "8.12.7",
-      "released_at": "2026-05-25",
-      "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v8.12.7",
-      "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v8.12.7/Manga.Library.Scanner.v8.12.7.exe",
-      "notices": [],
-      "notes": [
-        "프로그램 시작 직후나 검색창 등 다른 곳에 포커스가 있을 때도 결과 목록 위에서 Shift를 누르면 표지 미리보기가 뜨도록 보강했습니다.",
-        "결과 목록의 리디 검색이 다시 리디 상세 후보를 검증해 열도록 보강했습니다."
       ]
     }
   ]

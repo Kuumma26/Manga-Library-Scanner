@@ -3,7 +3,16 @@
   "released_at": "2026-05-27",
   "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v8.13.3",
   "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v8.13.3/Manga.Library.Scanner.v8.13.3.exe",
-  "notices": [],
+  "notices": [
+    {
+      "text": "Everything처럼 모든 정보를 즉시 실시간으로 갱신하는 방식은 NAS 이용 환경에서 잦은 접근 부담이 생길 수 있어, 충분히 테스트하며 단계적으로 적용할 예정입니다. 현재는 파일 추가/수정/삭제가 감지되면 잠시 후 변경분만 갱신할 수 있도록 알려주고, 스캔 버튼 클릭 시 변경된 부분만 우선 스캔하도록 개선해 두었습니다.",
+      "condition": {
+        "type": "range",
+        "from": "v8.13.3",
+        "to": "v8.13.6"
+      }
+    }
+  ],
   "notes": [
     "스캔 결과를 목록에 표시할 때 같은 결과를 다시 그리는 작업을 줄여, 대량 목록 표시와 반복 검색/필터 전환의 체감 대기 시간을 줄였습니다.",
     "결과 목록 표시 중 진행률이 실제 오래 걸리는 단계 비율에 더 가깝게 올라가도록 조정했습니다."
@@ -14,7 +23,16 @@
       "released_at": "2026-05-27",
       "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v8.13.3",
       "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v8.13.3/Manga.Library.Scanner.v8.13.3.exe",
-      "notices": [],
+      "notices": [
+        {
+          "text": "Everything처럼 모든 정보를 즉시 실시간으로 갱신하는 방식은 NAS 이용 환경에서 잦은 접근 부담이 생길 수 있어, 충분히 테스트하며 단계적으로 적용할 예정입니다. 현재는 파일 추가/수정/삭제가 감지되면 잠시 후 변경분만 갱신할 수 있도록 알려주고, 스캔 버튼 클릭 시 변경된 부분만 우선 스캔하도록 개선해 두었습니다.",
+          "condition": {
+            "type": "range",
+            "from": "v8.13.3",
+            "to": "v8.13.6"
+          }
+        }
+      ],
       "notes": [
         "스캔 결과를 목록에 표시할 때 같은 결과를 다시 그리는 작업을 줄여, 대량 목록 표시와 반복 검색/필터 전환의 체감 대기 시간을 줄였습니다.",
         "결과 목록 표시 중 진행률이 실제 오래 걸리는 단계 비율에 더 가깝게 올라가도록 조정했습니다."

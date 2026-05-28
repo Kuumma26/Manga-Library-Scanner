@@ -1,8 +1,8 @@
 {
-  "version": "9.0.1",
+  "version": "9.0.2",
   "released_at": "2026-05-29",
-  "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v9.0.1",
-  "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v9.0.1/Manga.Library.Scanner.v9.0.1.exe",
+  "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v9.0.2",
+  "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v9.0.2/Manga.Library.Scanner.v9.0.2.exe",
   "notices": [
     {
       "text": "Everything처럼 모든 정보를 즉시 실시간으로 갱신하는 방식은 NAS 이용 환경에서 잦은 접근 부담이 생길 수 있어, 충분히 테스트하며 단계적으로 적용할 예정입니다. 현재는 파일 추가/수정/삭제가 감지되면 잠시 후 변경분만 갱신할 수 있도록 알려주고, 스캔 버튼 클릭 시 변경된 부분만 우선 스캔하도록 개선해 두었습니다.",
@@ -22,11 +22,19 @@
     }
   ],
   "notes": [
-    "업데이트 안내/패치노트에서 이전 실행 버전 기준의 안내뿐 아니라, 새로 업데이트되는 최신 버전 범위의 중요 안내도 함께 표시되도록 수정했습니다.",
-    "파일 변경 자동 확인 중에 사용자가 `지금 변경 확인`을 누른 경우에도, 변경된 파일이 없으면 상태줄이 `파일 변경 확인 완료: 변경 없음`으로 정상 갱신되도록 수정했습니다.",
-    "메인창, 환경설정 창, 개별 분석, 통합 비교, 목록 검사 창의 크기/위치 기억에서 최대화 상태와 최대화 전 일반 크기를 함께 기억하도록 개선했습니다."
+    "업데이트 가능 창에서는 업데이트 대상 버전 범위에 해당하는 중요 안내를 보여주고, 일반/업데이트 후 패치노트에서는 현재 실행 중인 앱 버전에 해당하는 중요 안내만 표시되도록 수정했습니다."
   ],
   "releases": [
+    {
+      "version": "9.0.2",
+      "released_at": "2026-05-29",
+      "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v9.0.2",
+      "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v9.0.2/Manga.Library.Scanner.v9.0.2.exe",
+      "notices": [],
+      "notes": [
+        "업데이트 가능 창에서는 업데이트 대상 버전 범위에 해당하는 중요 안내를 보여주고, 일반/업데이트 후 패치노트에서는 현재 실행 중인 앱 버전에 해당하는 중요 안내만 표시되도록 수정했습니다."
+      ]
+    },
     {
       "version": "9.0.1",
       "released_at": "2026-05-29",
@@ -127,16 +135,6 @@
       "notes": [
         "새 설치나 자동 업데이트 직후 설정 파일에 목록 컬럼 너비가 아직 없을 때 결과 목록 컬럼이 좁게 초기화되던 문제를 수정했습니다.",
         "자동 업데이트 직후 패치노트 표시 기준 버전을 보존해, 첫 표시 타이밍을 놓쳐도 다음 시작에서 패치노트를 볼 수 있도록 보강했습니다."
-      ]
-    },
-    {
-      "version": "8.13.1",
-      "released_at": "2026-05-25",
-      "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v8.13.1",
-      "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v8.13.1/Manga.Library.Scanner.v8.13.1.exe",
-      "notices": [],
-      "notes": [
-        "자동 업데이트 준비 중 현재 실행에 필요한 임시 런타임 파일이 정리되어 업데이트가 실패할 수 있던 문제를 수정했습니다."
       ]
     }
   ]

@@ -1,8 +1,8 @@
 {
-  "version": "9.0.9",
+  "version": "9.0.10",
   "released_at": "2026-06-02",
-  "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v9.0.9",
-  "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v9.0.9/Manga.Library.Scanner.v9.0.9.exe",
+  "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v9.0.10",
+  "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v9.0.10/Manga.Library.Scanner.v9.0.10.exe",
   "notices": [
     {
       "text": "Everything처럼 모든 정보를 즉시 실시간으로 갱신하는 방식은 NAS 이용 환경에서 잦은 접근 부담이 생길 수 있어, 충분히 테스트하며 단계적으로 적용할 예정입니다. 현재는 파일 추가/수정/삭제가 감지되면 잠시 후 변경분만 갱신할 수 있도록 알려주고, 스캔 버튼 클릭 시 변경된 부분만 우선 스캔하도록 개선해 두었습니다.",
@@ -22,10 +22,21 @@
     }
   ],
   "notes": [
-    "전체 스캔 후에도 최소 파일 크기보다 작은 파일이 변경 감지 스냅샷에 남아 추가/삭제 변경분으로 다시 표시될 수 있던 문제를 수정했습니다.",
-    "최소 파일 크기를 0MB로 저장해도 메인 화면 재적용이나 스캔 시작 시 1MB로 되돌아갈 수 있던 문제를 수정했습니다."
+    "목록 검사에서 소장 파일 해상도 확인을 기본 꺼짐 옵션으로 분리해, 일반 검사 시 NAS 압축파일을 열지 않고 빠르게 결과를 표시하도록 개선했습니다.",
+    "목록 검사 창과 환경설정에 `해상도도 검사` 체크 옵션을 추가했습니다. 켜면 보유 파일의 샘플 해상도를 함께 확인하지만, NAS 환경에서는 검사 시간이 길어질 수 있습니다."
   ],
   "releases": [
+    {
+      "version": "9.0.10",
+      "released_at": "2026-06-02",
+      "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v9.0.10",
+      "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v9.0.10/Manga.Library.Scanner.v9.0.10.exe",
+      "notices": [],
+      "notes": [
+        "목록 검사에서 소장 파일 해상도 확인을 기본 꺼짐 옵션으로 분리해, 일반 검사 시 NAS 압축파일을 열지 않고 빠르게 결과를 표시하도록 개선했습니다.",
+        "목록 검사 창과 환경설정에 `해상도도 검사` 체크 옵션을 추가했습니다. 켜면 보유 파일의 샘플 해상도를 함께 확인하지만, NAS 환경에서는 검사 시간이 길어질 수 있습니다."
+      ]
+    },
     {
       "version": "9.0.9",
       "released_at": "2026-06-02",
@@ -71,16 +82,6 @@
       "notices": [],
       "notes": [
         "개별 분석과 통합 비교 창을 X 버튼이나 닫기 버튼으로 닫을 때 창 크기/위치 기억이 저장되지 않을 수 있던 문제를 수정했습니다."
-      ]
-    },
-    {
-      "version": "9.0.5",
-      "released_at": "2026-05-30",
-      "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v9.0.5",
-      "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v9.0.5/Manga.Library.Scanner.v9.0.5.exe",
-      "notices": [],
-      "notes": [
-        "파일 변경 기준선이 비정상적으로 비어 있는 상태에서 변경 확인이 실행되면 전체 파일이 추가된 것처럼 표시될 수 있던 문제를 보강했습니다."
       ]
     }
   ]

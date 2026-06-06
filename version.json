@@ -1,8 +1,8 @@
 {
-  "version": "9.0.11",
+  "version": "9.0.12",
   "released_at": "2026-06-06",
-  "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v9.0.11",
-  "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v9.0.11/Manga.Library.Scanner.v9.0.11.exe",
+  "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v9.0.12",
+  "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v9.0.12/Manga.Library.Scanner.v9.0.12.exe",
   "notices": [
     {
       "text": "Everything처럼 모든 정보를 즉시 실시간으로 갱신하는 방식은 NAS 이용 환경에서 잦은 접근 부담이 생길 수 있어, 충분히 테스트하며 단계적으로 적용할 예정입니다. 현재는 파일 추가/수정/삭제가 감지되면 잠시 후 변경분만 갱신할 수 있도록 알려주고, 스캔 버튼 클릭 시 변경된 부분만 우선 스캔하도록 개선해 두었습니다.",
@@ -22,9 +22,23 @@
     }
   ],
   "notes": [
-    "목록 검사에서 `전생했더니 슬라임이었던 건에 대하여 이문`, `클레이만 REVENGE`처럼 본편 제목 뒤에 다른 파생작 토큰이 붙은 항목을 본편 보유로 오인할 수 있던 문제를 수정했습니다."
+    "목록 검사에서 `책벌레의 하극상 3부 1-9권 / 4부 1-9권`처럼 한 줄에 여러 부가 함께 적힌 경우 뒤쪽 부까지 함께 확인해 보유 상태를 판정하도록 보강했습니다.",
+    "목록 검사에서 `기동전사 건담 0079`가 `기동전사 건담 UC 반데시네`처럼 식별 코드가 다른 건담 시리즈로 오탐 매칭될 수 있던 문제를 수정했습니다.",
+    "목록 검사 창에서 `크기/위치 기억`을 켰을 때 창 크기와 좌우 입력/결과 영역 비율이 더 안정적으로 복원되도록 보강했습니다."
   ],
   "releases": [
+    {
+      "version": "9.0.12",
+      "released_at": "2026-06-06",
+      "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v9.0.12",
+      "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v9.0.12/Manga.Library.Scanner.v9.0.12.exe",
+      "notices": [],
+      "notes": [
+        "목록 검사에서 `책벌레의 하극상 3부 1-9권 / 4부 1-9권`처럼 한 줄에 여러 부가 함께 적힌 경우 뒤쪽 부까지 함께 확인해 보유 상태를 판정하도록 보강했습니다.",
+        "목록 검사에서 `기동전사 건담 0079`가 `기동전사 건담 UC 반데시네`처럼 식별 코드가 다른 건담 시리즈로 오탐 매칭될 수 있던 문제를 수정했습니다.",
+        "목록 검사 창에서 `크기/위치 기억`을 켰을 때 창 크기와 좌우 입력/결과 영역 비율이 더 안정적으로 복원되도록 보강했습니다."
+      ]
+    },
     {
       "version": "9.0.11",
       "released_at": "2026-06-06",
@@ -69,18 +83,6 @@
         "목록 검사에서 접두어가 붙은 보유 제목도 더 잘 찾도록 보강하고, `제로`처럼 스핀오프를 구분하는 제목 토큰이 빠진 본편을 보유로 오인하지 않도록 수정했습니다.",
         "목록 검사에서 앞뒤 제목 맥락이 같은 3글자 이상 한글 토큰의 한 글자 오타를 더 안전하게 허용해, `짓궃은`/`짓궂은` 같은 표기 차이로 미보유 처리되던 사례를 보강했습니다.",
         "목록 검사 결과에 소장 파일 샘플 해상도 열을 추가해, 보유/부분 보유 항목의 1080px/1500px 여부를 각 파일당 2장 기준으로 확인할 수 있도록 했습니다."
-      ]
-    },
-    {
-      "version": "9.0.7",
-      "released_at": "2026-05-31",
-      "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v9.0.7",
-      "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v9.0.7/Manga.Library.Scanner.v9.0.7.exe",
-      "notices": [],
-      "notes": [
-        "전체 스캔과 파일 변경 확인 타이밍이 겹쳤을 때, 스캔 전 변경 확인 결과가 뒤늦게 도착해 변경분 표시를 다시 띄울 수 있던 경로를 보강했습니다.",
-        "환경설정의 우클릭 해상도 확인 수를 `전체`로 저장하면 다시 `5`로 돌아가고, 열린 개별 분석/통합 비교 창에도 `전체` 설정이 동기화되지 않던 문제를 수정했습니다.",
-        "개별 분석 창에서 샘플 수를 `전체`로 둔 상태로 목록 항목을 끌어다 놓으면 분석 중 상태에서 멈출 수 있던 문제를 수정했습니다."
       ]
     }
   ]

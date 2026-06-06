@@ -1,8 +1,8 @@
 {
-  "version": "9.0.13",
+  "version": "9.0.14",
   "released_at": "2026-06-07",
-  "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v9.0.13",
-  "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v9.0.13/Manga.Library.Scanner.v9.0.13.exe",
+  "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v9.0.14",
+  "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v9.0.14/Manga.Library.Scanner.v9.0.14.exe",
   "notices": [
     {
       "text": "Everything처럼 모든 정보를 즉시 실시간으로 갱신하는 방식은 NAS 이용 환경에서 잦은 접근 부담이 생길 수 있어, 충분히 테스트하며 단계적으로 적용할 예정입니다. 현재는 파일 추가/수정/삭제가 감지되면 잠시 후 변경분만 갱신할 수 있도록 알려주고, 스캔 버튼 클릭 시 변경된 부분만 우선 스캔하도록 개선해 두었습니다.",
@@ -22,13 +22,19 @@
     }
   ],
   "notes": [
-    "자동 업데이트를 진행하기 전에 열려 있는 통합 비교, 개별 분석, 목록 검사 창의 크기/위치를 먼저 저장해 업데이트 후 도구창 위치가 기본값으로 돌아갈 수 있는 상황을 줄였습니다.",
-    "피드백 보내기에서 이미지/로그/텍스트/압축 파일을 최대 3개까지 파일 첨부할 수 있도록 추가했습니다.",
-    "피드백 첨부 파일명을 전송 전에 확인하고, 잘못 고른 첨부는 선택해서 삭제할 수 있도록 보강했습니다.",
-    "피드백 첨부 전송 안정성을 보강했습니다.",
-    "피드백 전송 중 창이 멈춘 것처럼 보이지 않도록 진행 상태 표시를 추가했습니다."
+    "피드백 전송 진행 상태 문구를 더 자연스럽게 정리했습니다."
   ],
   "releases": [
+    {
+      "version": "9.0.14",
+      "released_at": "2026-06-07",
+      "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v9.0.14",
+      "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v9.0.14/Manga.Library.Scanner.v9.0.14.exe",
+      "notices": [],
+      "notes": [
+        "피드백 전송 진행 상태 문구를 더 자연스럽게 정리했습니다."
+      ]
+    },
     {
       "version": "9.0.13",
       "released_at": "2026-06-07",
@@ -74,17 +80,6 @@
       "notes": [
         "목록 검사에서 소장 파일 해상도 확인을 기본 꺼짐 옵션으로 분리해, 일반 검사 시 NAS 압축파일을 열지 않고 빠르게 결과를 표시하도록 개선했습니다.",
         "목록 검사 창과 환경설정에 `해상도도 검사` 체크 옵션을 추가했습니다. 켜면 보유 파일의 샘플 해상도를 함께 확인하지만, NAS 환경에서는 검사 시간이 길어질 수 있습니다."
-      ]
-    },
-    {
-      "version": "9.0.9",
-      "released_at": "2026-06-02",
-      "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v9.0.9",
-      "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v9.0.9/Manga.Library.Scanner.v9.0.9.exe",
-      "notices": [],
-      "notes": [
-        "전체 스캔 후에도 최소 파일 크기보다 작은 파일이 변경 감지 스냅샷에 남아 추가/삭제 변경분으로 다시 표시될 수 있던 문제를 수정했습니다.",
-        "최소 파일 크기를 0MB로 저장해도 메인 화면 재적용이나 스캔 시작 시 1MB로 되돌아갈 수 있던 문제를 수정했습니다."
       ]
     }
   ]

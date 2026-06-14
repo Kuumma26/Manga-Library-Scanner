@@ -1,8 +1,8 @@
 {
-  "version": "9.0.18",
+  "version": "9.0.19",
   "released_at": "2026-06-14",
-  "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v9.0.18",
-  "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v9.0.18/Manga.Library.Scanner.v9.0.18.exe",
+  "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v9.0.19",
+  "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v9.0.19/Manga.Library.Scanner.v9.0.19.exe",
   "notices": [
     {
       "text": "Everything처럼 모든 정보를 즉시 실시간으로 갱신하는 방식은 NAS 이용 환경에서 잦은 접근 부담이 생길 수 있어, 충분히 테스트하며 단계적으로 적용할 예정입니다. 현재는 파일 추가/수정/삭제가 감지되면 잠시 후 변경분만 갱신할 수 있도록 알려주고, 스캔 버튼 클릭 시 변경된 부분만 우선 스캔하도록 개선해 두었습니다.",
@@ -22,15 +22,19 @@
     }
   ],
   "notes": [
-    "스캔 경로 목록에 스플릿 버튼 형태의 프리셋 메뉴를 추가해, 현재 폴더 체크 상태를 이름으로 저장하고 나중에 빠르게 다시 적용할 수 있도록 했습니다.",
-    "프리셋 적용으로 새로 켠 경로가 아직 저장된 라이브러리 목록에 없을 때만 전체 스캔이 필요하다는 안내를 표시하도록 했습니다.",
-    "스캔 경로 체크 상태는 목록 표시 필터로 쓰고, 스캔/변경 감지는 등록된 경로 기준으로 진행되도록 정리해 체크를 모두 해제해도 라이브러리 캐시는 갱신할 수 있게 보강했습니다.",
-    "상위 스캔 경로와 하위 스캔 경로를 함께 등록했을 때, 하위 경로 체크를 해제하면 해당 하위 경로의 저장된 목록과 페이지 조회 결과도 함께 제외되도록 보강했습니다.",
-    "스캔 경로 체크 상태는 스캔 대상 제외가 아니라 목록 표시/필터 기준으로 동작하도록 정리해, 체크 해제한 경로도 라이브러리 캐시는 스캔으로 최신화되게 맞췄습니다.",
-    "스캔 경로 목록에서 `//서버/공유`처럼 슬래시가 섞인 UNC 경로도 Windows 백슬래시 형태로 일관되게 표시되도록 정리했습니다.",
-    "환경설정 키워드 탭에 검색 입력칸을 추가해, 키워드 항목이 많을 때 항목명/설명/내용으로 빠르게 필터링할 수 있도록 했습니다."
+    "특정 게시판 복사 목록에서 `희귀`, `직공` 같은 분류 태그 줄이 목록 검사 항목으로 섞여 검색되던 문제를 수정했습니다."
   ],
   "releases": [
+    {
+      "version": "9.0.19",
+      "released_at": "2026-06-14",
+      "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v9.0.19",
+      "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v9.0.19/Manga.Library.Scanner.v9.0.19.exe",
+      "notices": [],
+      "notes": [
+        "특정 게시판 복사 목록에서 `희귀`, `직공` 같은 분류 태그 줄이 목록 검사 항목으로 섞여 검색되던 문제를 수정했습니다."
+      ]
+    },
     {
       "version": "9.0.18",
       "released_at": "2026-06-14",
@@ -81,16 +85,6 @@
       "notices": [],
       "notes": [
         "목록 검사에서 `1-18 1500`, `1-10 완 1500.zip`처럼 권수 범위 뒤에 해상도 숫자가 붙은 입력을 부분 보유로 잘못 판정하던 문제를 수정했습니다."
-      ]
-    },
-    {
-      "version": "9.0.14",
-      "released_at": "2026-06-07",
-      "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v9.0.14",
-      "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v9.0.14/Manga.Library.Scanner.v9.0.14.exe",
-      "notices": [],
-      "notes": [
-        "피드백 전송 진행 상태 문구를 더 자연스럽게 정리했습니다."
       ]
     }
   ]

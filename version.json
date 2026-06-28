@@ -1,8 +1,8 @@
 {
-  "version": "9.0.27",
+  "version": "9.0.28",
   "released_at": "2026-06-28",
-  "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v9.0.27",
-  "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v9.0.27/Manga.Library.Scanner.v9.0.27.exe",
+  "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v9.0.28",
+  "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v9.0.28/Manga.Library.Scanner.v9.0.28.exe",
   "notices": [
     {
       "text": "Everything처럼 모든 정보를 즉시 실시간으로 갱신하는 방식은 NAS 이용 환경에서 잦은 접근 부담이 생길 수 있어, 충분히 테스트하며 단계적으로 적용할 예정입니다. 현재는 파일 추가/수정/삭제가 감지되면 잠시 후 변경분만 갱신할 수 있도록 알려주고, 스캔 버튼 클릭 시 변경된 부분만 우선 스캔하도록 개선해 두었습니다.",
@@ -29,9 +29,19 @@
     }
   ],
   "notes": [
-    "건강 진단 창과 이름 변경 미리보기의 버튼/필터 툴팁이 UI 배율과 테마 폰트 크기를 반영하도록 보강했습니다."
+    "ZIP/CBZ 파일 내용이 바뀌었는데 파일 크기와 수정 시간이 같게 유지된 경우, 개별 분석에서 예전 내부 폴더 구조가 캐시로 남아 보일 수 있던 문제를 보강했습니다."
   ],
   "releases": [
+    {
+      "version": "9.0.28",
+      "released_at": "2026-06-28",
+      "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v9.0.28",
+      "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v9.0.28/Manga.Library.Scanner.v9.0.28.exe",
+      "notices": [],
+      "notes": [
+        "ZIP/CBZ 파일 내용이 바뀌었는데 파일 크기와 수정 시간이 같게 유지된 경우, 개별 분석에서 예전 내부 폴더 구조가 캐시로 남아 보일 수 있던 문제를 보강했습니다."
+      ]
+    },
     {
       "version": "9.0.27",
       "released_at": "2026-06-28",
@@ -101,17 +111,6 @@
         "건강 진단 품질/출처 경고에서도 `AI번역`, `워마/워터마크` 태그 정리 추천명을 함께 보여주고, 완결 표기는 일반 태그보다 앞에 오도록 추천 순서를 보정했습니다.",
         "목록 검사 입력 정리에서 게시판 원본 복사에 섞이는 이미지 파일명/분류 줄은 제외하고, `3300px~3400px`, `1600px/1080px`, `[해상도 혼합 / 번역]`, `1500px | 5권(100%)` 같은 해상도·메타 표기가 제목 매칭을 방해하지 않도록 보강했습니다.",
         "목록 검사에서 기본 제목이 없고 `신장판`, `애장판`, `완전판` 같은 판본 시리즈만 있을 때도 안전하게 매칭 후보로 볼 수 있도록 보강했습니다."
-      ]
-    },
-    {
-      "version": "9.0.23",
-      "released_at": "2026-06-25",
-      "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v9.0.23",
-      "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v9.0.23/Manga.Library.Scanner.v9.0.23.exe",
-      "notices": [],
-      "notes": [
-        "병렬 전체 스캔 중 스캔 캐시 SQLite 읽기 락이 발생하면 일부 묶음이 조용히 누락된 채 저장될 수 있던 문제를 수정했습니다.",
-        "스캔 배치 처리 중 예외가 발생하면 불완전한 결과를 정상 저장하지 않고 오류로 중단되도록 보강했습니다."
       ]
     }
   ]

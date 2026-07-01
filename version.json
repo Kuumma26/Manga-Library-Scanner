@@ -1,8 +1,8 @@
 {
-  "version": "9.0.31",
+  "version": "9.0.32",
   "released_at": "2026-07-02",
-  "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v9.0.31",
-  "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v9.0.31/Manga.Library.Scanner.v9.0.31.exe",
+  "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v9.0.32",
+  "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v9.0.32/Manga.Library.Scanner.v9.0.32.exe",
   "notices": [
     {
       "text": "Everything처럼 모든 정보를 즉시 실시간으로 갱신하는 방식은 NAS 이용 환경에서 잦은 접근 부담이 생길 수 있어, 충분히 테스트하며 단계적으로 적용할 예정입니다. 현재는 파일 추가/수정/삭제가 감지되면 잠시 후 변경분만 갱신할 수 있도록 알려주고, 스캔 버튼 클릭 시 변경된 부분만 우선 스캔하도록 개선해 두었습니다.",
@@ -29,10 +29,19 @@
     }
   ],
   "notes": [
-    "메인 결과 목록에서 시리즈 행을 `Alt+더블클릭` 또는 `Alt+Enter`로 열면, 표지 미리보기처럼 첫 권/첫 화 파일을 바로 열도록 개선했습니다.",
-    "메인 결과 목록 도움말에 시리즈 행 파일 열기 기준을 짧게 보강했습니다."
+    "결과 목록에서 시리즈 행을 파일 열기로 더블클릭할 때 부모 시리즈가 함께 펼쳐지던 동작을 막았습니다."
   ],
   "releases": [
+    {
+      "version": "9.0.32",
+      "released_at": "2026-07-02",
+      "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v9.0.32",
+      "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v9.0.32/Manga.Library.Scanner.v9.0.32.exe",
+      "notices": [],
+      "notes": [
+        "결과 목록에서 시리즈 행을 파일 열기로 더블클릭할 때 부모 시리즈가 함께 펼쳐지던 동작을 막았습니다."
+      ]
+    },
     {
       "version": "9.0.31",
       "released_at": "2026-07-02",
@@ -74,16 +83,6 @@
       "notices": [],
       "notes": [
         "ZIP/CBZ 파일 내용이 바뀌었는데 파일 크기와 수정 시간이 같게 유지된 경우, 개별 분석에서 예전 내부 폴더 구조가 캐시로 남아 보일 수 있던 문제를 보강했습니다."
-      ]
-    },
-    {
-      "version": "9.0.27",
-      "released_at": "2026-06-28",
-      "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v9.0.27",
-      "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v9.0.27/Manga.Library.Scanner.v9.0.27.exe",
-      "notices": [],
-      "notes": [
-        "건강 진단 창과 이름 변경 미리보기의 버튼/필터 툴팁이 UI 배율과 테마 폰트 크기를 반영하도록 보강했습니다."
       ]
     }
   ]

@@ -1,8 +1,8 @@
 {
-  "version": "9.0.33",
+  "version": "9.0.34",
   "released_at": "2026-07-03",
-  "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v9.0.33",
-  "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v9.0.33/Manga.Library.Scanner.v9.0.33.exe",
+  "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v9.0.34",
+  "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v9.0.34/Manga.Library.Scanner.v9.0.34.exe",
   "notices": [
     {
       "text": "Everything처럼 모든 정보를 즉시 실시간으로 갱신하는 방식은 NAS 이용 환경에서 잦은 접근 부담이 생길 수 있어, 충분히 테스트하며 단계적으로 적용할 예정입니다. 현재는 파일 추가/수정/삭제가 감지되면 잠시 후 변경분만 갱신할 수 있도록 알려주고, 스캔 버튼 클릭 시 변경된 부분만 우선 스캔하도록 개선해 두었습니다.",
@@ -29,10 +29,19 @@
     }
   ],
   "notes": [
-    "결과 목록에서 일반 더블클릭은 시리즈 펼침/접힘으로 유지하고, Alt+더블클릭 파일 열기 때만 시리즈가 함께 펼쳐지지 않도록 조정했습니다.",
-    "상위 시리즈 폴더 아래의 `3부 ...` 같은 하위 부/편 폴더와 파일명이 서로 일치할 때, 결과 목록 시리즈명이 상위 폴더명으로 표시되던 문제를 수정했습니다."
+    "제목 추출 규칙이 바뀐 뒤에도 기존 스캔 메타 캐시가 남아 일부 시리즈명이 예전 상위 폴더명으로 계속 표시될 수 있던 문제를 수정했습니다."
   ],
   "releases": [
+    {
+      "version": "9.0.34",
+      "released_at": "2026-07-03",
+      "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v9.0.34",
+      "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v9.0.34/Manga.Library.Scanner.v9.0.34.exe",
+      "notices": [],
+      "notes": [
+        "제목 추출 규칙이 바뀐 뒤에도 기존 스캔 메타 캐시가 남아 일부 시리즈명이 예전 상위 폴더명으로 계속 표시될 수 있던 문제를 수정했습니다."
+      ]
+    },
     {
       "version": "9.0.33",
       "released_at": "2026-07-03",
@@ -74,17 +83,6 @@
       "notes": [
         "건강 진단 이름 정리에서 `완결 1200px`, `1600px/1080px`, `3300px~3400px`처럼 완결 표기 뒤에 붙은 해상도를 `[1200px]` 같은 태그로 정리해 추천하도록 보강했습니다.",
         "건강 진단 이름 정리에서 `(7~9 합본 (완결))(AI번역)`처럼 중첩 괄호가 섞인 파일명의 추천명이 깨질 수 있던 문제를 수정했습니다."
-      ]
-    },
-    {
-      "version": "9.0.29",
-      "released_at": "2026-06-28",
-      "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v9.0.29",
-      "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v9.0.29/Manga.Library.Scanner.v9.0.29.exe",
-      "notices": [],
-      "notes": [
-        "건강 진단 이름 정리에서 `[완]`, `[완결]`, `[完]`, `(完)`, `권完`처럼 적힌 완결 표기도 `(완결)`로 정리해 추천하도록 보강했습니다.",
-        "숫자와 `+` 기호가 제목 일부인 파일명, 예를 들어 `48+1 1권 [스캔] [양면].zip`이 제목 없음으로 처리되어 스캔 미반영으로 남을 수 있던 문제를 수정했습니다."
       ]
     }
   ]

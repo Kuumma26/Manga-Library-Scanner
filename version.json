@@ -1,8 +1,8 @@
 {
-  "version": "9.0.36",
-  "released_at": "2026-07-07",
-  "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v9.0.36",
-  "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v9.0.36/Manga.Library.Scanner.v9.0.36.exe",
+  "version": "9.0.37",
+  "released_at": "2026-07-10",
+  "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v9.0.37",
+  "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v9.0.37/Manga.Library.Scanner.v9.0.37.exe",
   "notices": [
     {
       "text": "Everything처럼 모든 정보를 즉시 실시간으로 갱신하는 방식은 NAS 이용 환경에서 잦은 접근 부담이 생길 수 있어, 충분히 테스트하며 단계적으로 적용할 예정입니다. 현재는 파일 추가/수정/삭제가 감지되면 잠시 후 변경분만 갱신할 수 있도록 알려주고, 스캔 버튼 클릭 시 변경된 부분만 우선 스캔하도록 개선해 두었습니다.",
@@ -29,11 +29,19 @@
     }
   ],
   "notes": [
-    "상단 도움말 버튼을 일반 `?` 텍스트가 아니라 물음표 아이콘으로 표시하도록 정정했습니다.",
-    "건강 진단 이름 정리에서 `번역판` 같은 보조 폴더 안의 `01(번역).zip` 파일은 보조 폴더명이 아니라 상위 시리즈 폴더명을 기준으로 추천 파일명을 만들도록 보강했습니다.",
-    "건강 진단 이름 변경 후 생기는 추가/삭제 변경분은 rename 1건을 과대 계산하지 않도록 해, 변경분 갱신 뒤 같은 이름 변경이 다시 감지될 수 있던 경로를 보강했습니다."
+    "부분 갱신에서 괄호나 띄어쓰기 차이가 있는 동일 시리즈의 새 권이 별도 시리즈로 중복 표시되고 누락으로 잘못 판단될 수 있던 문제를 수정했습니다."
   ],
   "releases": [
+    {
+      "version": "9.0.37",
+      "released_at": "2026-07-10",
+      "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v9.0.37",
+      "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v9.0.37/Manga.Library.Scanner.v9.0.37.exe",
+      "notices": [],
+      "notes": [
+        "부분 갱신에서 괄호나 띄어쓰기 차이가 있는 동일 시리즈의 새 권이 별도 시리즈로 중복 표시되고 누락으로 잘못 판단될 수 있던 문제를 수정했습니다."
+      ]
+    },
     {
       "version": "9.0.36",
       "released_at": "2026-07-07",
@@ -76,16 +84,6 @@
       "notes": [
         "결과 목록에서 일반 더블클릭은 시리즈 펼침/접힘으로 유지하고, Alt+더블클릭 파일 열기 때만 시리즈가 함께 펼쳐지지 않도록 조정했습니다.",
         "상위 시리즈 폴더 아래의 `3부 ...` 같은 하위 부/편 폴더와 파일명이 서로 일치할 때, 결과 목록 시리즈명이 상위 폴더명으로 표시되던 문제를 수정했습니다."
-      ]
-    },
-    {
-      "version": "9.0.32",
-      "released_at": "2026-07-02",
-      "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v9.0.32",
-      "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v9.0.32/Manga.Library.Scanner.v9.0.32.exe",
-      "notices": [],
-      "notes": [
-        "결과 목록에서 시리즈 행을 파일 열기로 더블클릭할 때 부모 시리즈가 함께 펼쳐지던 동작을 막았습니다."
       ]
     }
   ]

@@ -1,8 +1,8 @@
 {
-  "version": "9.0.37",
-  "released_at": "2026-07-10",
-  "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v9.0.37",
-  "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v9.0.37/Manga.Library.Scanner.v9.0.37.exe",
+  "version": "9.0.38",
+  "released_at": "2026-07-11",
+  "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v9.0.38",
+  "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v9.0.38/Manga.Library.Scanner.v9.0.38.exe",
   "notices": [
     {
       "text": "Everything처럼 모든 정보를 즉시 실시간으로 갱신하는 방식은 NAS 이용 환경에서 잦은 접근 부담이 생길 수 있어, 충분히 테스트하며 단계적으로 적용할 예정입니다. 현재는 파일 추가/수정/삭제가 감지되면 잠시 후 변경분만 갱신할 수 있도록 알려주고, 스캔 버튼 클릭 시 변경된 부분만 우선 스캔하도록 개선해 두었습니다.",
@@ -29,9 +29,19 @@
     }
   ],
   "notes": [
-    "부분 갱신에서 괄호나 띄어쓰기 차이가 있는 동일 시리즈의 새 권이 별도 시리즈로 중복 표시되고 누락으로 잘못 판단될 수 있던 문제를 수정했습니다."
+    "게시판 목록을 복사해 목록 검사할 때 `번호 + 재업` 분류행과 `번호 / 분류 / 제목` 헤더가 작품명으로 인식되어 미보유로 표시되던 문제를 수정했습니다."
   ],
   "releases": [
+    {
+      "version": "9.0.38",
+      "released_at": "2026-07-11",
+      "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v9.0.38",
+      "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v9.0.38/Manga.Library.Scanner.v9.0.38.exe",
+      "notices": [],
+      "notes": [
+        "게시판 목록을 복사해 목록 검사할 때 `번호 + 재업` 분류행과 `번호 / 분류 / 제목` 헤더가 작품명으로 인식되어 미보유로 표시되던 문제를 수정했습니다."
+      ]
+    },
     {
       "version": "9.0.37",
       "released_at": "2026-07-10",
@@ -73,17 +83,6 @@
       "notices": [],
       "notes": [
         "제목 추출 규칙이 바뀐 뒤에도 기존 스캔 메타 캐시가 남아 일부 시리즈명이 예전 상위 폴더명으로 계속 표시될 수 있던 문제를 수정했습니다."
-      ]
-    },
-    {
-      "version": "9.0.33",
-      "released_at": "2026-07-03",
-      "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v9.0.33",
-      "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v9.0.33/Manga.Library.Scanner.v9.0.33.exe",
-      "notices": [],
-      "notes": [
-        "결과 목록에서 일반 더블클릭은 시리즈 펼침/접힘으로 유지하고, Alt+더블클릭 파일 열기 때만 시리즈가 함께 펼쳐지지 않도록 조정했습니다.",
-        "상위 시리즈 폴더 아래의 `3부 ...` 같은 하위 부/편 폴더와 파일명이 서로 일치할 때, 결과 목록 시리즈명이 상위 폴더명으로 표시되던 문제를 수정했습니다."
       ]
     }
   ]

@@ -1,8 +1,8 @@
 {
-  "version": "9.0.40",
+  "version": "9.0.41",
   "released_at": "2026-07-18",
-  "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v9.0.40",
-  "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v9.0.40/Manga.Library.Scanner.v9.0.40.exe",
+  "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v9.0.41",
+  "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v9.0.41/Manga.Library.Scanner.v9.0.41.exe",
   "notices": [
     {
       "text": "Everything처럼 모든 정보를 즉시 실시간으로 갱신하는 방식은 NAS 이용 환경에서 잦은 접근 부담이 생길 수 있어, 충분히 테스트하며 단계적으로 적용할 예정입니다. 현재는 파일 추가/수정/삭제가 감지되면 잠시 후 변경분만 갱신할 수 있도록 알려주고, 스캔 버튼 클릭 시 변경된 부분만 우선 스캔하도록 개선해 두었습니다.",
@@ -29,11 +29,21 @@
     }
   ],
   "notes": [
-    "건강 진단 이름 정리에서 `[원본] [1512px]`처럼 인접한 대괄호 태그 사이의 공백을 모든 권에 동일하게 정리하도록 보강했습니다.",
-    "건강 진단 이름 정리에서 `1권 1500px`처럼 권수 뒤에 대괄호 없이 적힌 해상도도 모든 권에 대해 `1권 [1500px]` 형식으로 추천하도록 보강했습니다.",
-    "압축 파일 폴더 정리 미리보기에 테마·UI 배율을 일관되게 적용하고, 긴 파일명·폴더명·경로·실패 사유가 실제로 가려질 때만 전체 내용을 툴팁으로 확인할 수 있도록 개선했습니다."
+    "건강 진단 이름 정리에서 제목 폴더 안의 `01권.zip`, `01화.zip`처럼 시리즈명이 빠진 파일을 모든 권·화에 대해 감지하고, `권수 보정` 설정에 따라 폴더 제목을 안전하게 보완하도록 개선했습니다.",
+    "제목이 빠진 파일에 완결·해상도·태그 표기가 함께 있으면 각각 따로 표시하지 않고 정리된 최종 파일명 하나로 추천하도록 보강했습니다."
   ],
   "releases": [
+    {
+      "version": "9.0.41",
+      "released_at": "2026-07-18",
+      "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v9.0.41",
+      "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v9.0.41/Manga.Library.Scanner.v9.0.41.exe",
+      "notices": [],
+      "notes": [
+        "건강 진단 이름 정리에서 제목 폴더 안의 `01권.zip`, `01화.zip`처럼 시리즈명이 빠진 파일을 모든 권·화에 대해 감지하고, `권수 보정` 설정에 따라 폴더 제목을 안전하게 보완하도록 개선했습니다.",
+        "제목이 빠진 파일에 완결·해상도·태그 표기가 함께 있으면 각각 따로 표시하지 않고 정리된 최종 파일명 하나로 추천하도록 보강했습니다."
+      ]
+    },
     {
       "version": "9.0.40",
       "released_at": "2026-07-18",
@@ -74,18 +84,6 @@
       "notices": [],
       "notes": [
         "부분 갱신에서 괄호나 띄어쓰기 차이가 있는 동일 시리즈의 새 권이 별도 시리즈로 중복 표시되고 누락으로 잘못 판단될 수 있던 문제를 수정했습니다."
-      ]
-    },
-    {
-      "version": "9.0.36",
-      "released_at": "2026-07-07",
-      "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v9.0.36",
-      "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v9.0.36/Manga.Library.Scanner.v9.0.36.exe",
-      "notices": [],
-      "notes": [
-        "상단 도움말 버튼을 일반 `?` 텍스트가 아니라 물음표 아이콘으로 표시하도록 정정했습니다.",
-        "건강 진단 이름 정리에서 `번역판` 같은 보조 폴더 안의 `01(번역).zip` 파일은 보조 폴더명이 아니라 상위 시리즈 폴더명을 기준으로 추천 파일명을 만들도록 보강했습니다.",
-        "건강 진단 이름 변경 후 생기는 추가/삭제 변경분은 rename 1건을 과대 계산하지 않도록 해, 변경분 갱신 뒤 같은 이름 변경이 다시 감지될 수 있던 경로를 보강했습니다."
       ]
     }
   ]

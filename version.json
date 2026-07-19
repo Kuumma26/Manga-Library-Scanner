@@ -1,8 +1,8 @@
 {
-  "version": "9.0.42",
-  "released_at": "2026-07-18",
-  "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v9.0.42",
-  "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v9.0.42/Manga.Library.Scanner.v9.0.42.exe",
+  "version": "9.0.43",
+  "released_at": "2026-07-19",
+  "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v9.0.43",
+  "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v9.0.43/Manga.Library.Scanner.v9.0.43.exe",
   "notices": [
     {
       "text": "Everything처럼 모든 정보를 즉시 실시간으로 갱신하는 방식은 NAS 이용 환경에서 잦은 접근 부담이 생길 수 있어, 충분히 테스트하며 단계적으로 적용할 예정입니다. 현재는 파일 추가/수정/삭제가 감지되면 잠시 후 변경분만 갱신할 수 있도록 알려주고, 스캔 버튼 클릭 시 변경된 부분만 우선 스캔하도록 개선해 두었습니다.",
@@ -29,12 +29,21 @@
     }
   ],
   "notes": [
-    "파일명이나 폴더명이 `[작가명] 작품명`으로 시작할 때 앞의 대괄호가 빠져 시리즈명이 `작가명] 작품명`처럼 표시되던 문제를 수정했습니다.",
-    "건강 진단 이름 정리 추천에서도 이미 저장된 목록의 잘린 제목 대신 실제 폴더명을 우선 사용해 `[작가명] 작품명 01권.zip`처럼 올바른 파일명을 제안하도록 보강했습니다.",
-    "건강 진단 이름 정리에서 권·화 뒤의 `END`, `FIN` 표기를 완결로 인식해 `(완결)` 형식으로 추천하도록 보강했습니다.",
-    "건강 진단 이름 정리에서 `(번역 워터마크)`처럼 합쳐 적은 태그를 `[번역][워터마크]`로 나눠 추천하도록 개선했습니다."
+    "건강 진단 이름 정리에서 이미 권·화 표기가 있는 파일도 합본 괄호와 번역 태그의 공백·괄호 형식이 다르면 `(1~2 합본) [AI번역]`처럼 일관된 이름으로 추천하도록 보강했습니다.",
+    "압축 파일 폴더 정리 미리보기에서 긴 네트워크 경로가 넓은 경로 컬럼에서도 `\\\\...`로만 보이던 문제를 수정했습니다."
   ],
   "releases": [
+    {
+      "version": "9.0.43",
+      "released_at": "2026-07-19",
+      "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v9.0.43",
+      "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v9.0.43/Manga.Library.Scanner.v9.0.43.exe",
+      "notices": [],
+      "notes": [
+        "건강 진단 이름 정리에서 이미 권·화 표기가 있는 파일도 합본 괄호와 번역 태그의 공백·괄호 형식이 다르면 `(1~2 합본) [AI번역]`처럼 일관된 이름으로 추천하도록 보강했습니다.",
+        "압축 파일 폴더 정리 미리보기에서 긴 네트워크 경로가 넓은 경로 컬럼에서도 `\\\\...`로만 보이던 문제를 수정했습니다."
+      ]
+    },
     {
       "version": "9.0.42",
       "released_at": "2026-07-18",
@@ -79,16 +88,6 @@
       "notices": [],
       "notes": [
         "개별 분석에서 ZIP/CBZ 내부 파일이 하나의 최상위 폴더 안에만 들어 있으면 전체 분석 범위의 후보를 모아 미리 확인하고, 선택한 파일의 폴더 한 단계를 안전하게 제거할 수 있도록 추가했습니다."
-      ]
-    },
-    {
-      "version": "9.0.38",
-      "released_at": "2026-07-11",
-      "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v9.0.38",
-      "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v9.0.38/Manga.Library.Scanner.v9.0.38.exe",
-      "notices": [],
-      "notes": [
-        "게시판 목록을 복사해 목록 검사할 때 `번호 + 재업` 분류행과 `번호 / 분류 / 제목` 헤더가 작품명으로 인식되어 미보유로 표시되던 문제를 수정했습니다."
       ]
     }
   ]

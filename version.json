@@ -1,8 +1,8 @@
 {
-  "version": "9.0.49",
+  "version": "9.0.50",
   "released_at": "2026-07-29",
-  "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v9.0.49",
-  "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v9.0.49/Manga.Library.Scanner.v9.0.49.exe",
+  "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v9.0.50",
+  "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v9.0.50/Manga.Library.Scanner.v9.0.50.exe",
   "notices": [
     {
       "text": "Everything처럼 모든 정보를 즉시 실시간으로 갱신하는 방식은 NAS 이용 환경에서 잦은 접근 부담이 생길 수 있어, 충분히 테스트하며 단계적으로 적용할 예정입니다. 현재는 파일 추가/수정/삭제가 감지되면 잠시 후 변경분만 갱신할 수 있도록 알려주고, 스캔 버튼 클릭 시 변경된 부분만 우선 스캔하도록 개선해 두었습니다.",
@@ -40,9 +40,21 @@
     }
   ],
   "notes": [
-    "스캔 폴더 넓게 보기에서 경로를 다른 항목 위로 드롭하면 대상 경로가 덮어써지며 목록에서 사라질 수 있던 문제를 수정했습니다."
+    "스캔 폴더 넓게 보기에서 경로를 드래그해 순서를 바꾸면 드래그한 경로가 목록에서 사라지던 문제를 수정했습니다.",
+    "연관 검색에서 `하트 나라의 엘리스`처럼 장식용 하트 기호를 생략해 입력해도 해당 제목을 찾을 수 있도록 보완했습니다."
   ],
   "releases": [
+    {
+      "version": "9.0.50",
+      "released_at": "2026-07-29",
+      "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v9.0.50",
+      "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v9.0.50/Manga.Library.Scanner.v9.0.50.exe",
+      "notices": [],
+      "notes": [
+        "스캔 폴더 넓게 보기에서 경로를 드래그해 순서를 바꾸면 드래그한 경로가 목록에서 사라지던 문제를 수정했습니다.",
+        "연관 검색에서 `하트 나라의 엘리스`처럼 장식용 하트 기호를 생략해 입력해도 해당 제목을 찾을 수 있도록 보완했습니다."
+      ]
+    },
     {
       "version": "9.0.49",
       "released_at": "2026-07-29",
@@ -98,21 +110,6 @@
         "압축 파일 폴더 정리 미리보기에서 실제로 말줄임된 일부 폴더명에 툴팁이 표시되지 않던 문제를 수정했습니다.",
         "중요 안내를 업데이트 직후 표시와 별개로 일반 실행 때 지정된 횟수만큼 다시 보여줄 수 있도록 보강했습니다.",
         "압축 파일 폴더 정리를 환경설정의 스캔 스레드 수에 맞춰 여러 압축 파일씩 병렬 처리하도록 개선했습니다."
-      ]
-    },
-    {
-      "version": "9.0.45",
-      "released_at": "2026-07-20",
-      "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v9.0.45",
-      "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v9.0.45/Manga.Library.Scanner.v9.0.45.exe",
-      "notices": [],
-      "notes": [
-        "건강 진단 이름 정리에서 `1-08권`, `01-8권`처럼 범위 양쪽의 0 채움 자리수가 다른 경우 `01-08권` 형태로 일치시켜 추천하도록 보완했습니다.",
-        "건강 진단 이름 정리에서 `(보정판) (완결)`처럼 연속된 소괄호 메타를 `(보정판)(완결)` 형태로 붙여 추천하도록 보완했습니다.",
-        "건강 진단 이름 정리에서 `01 권 ~ 18 권`처럼 범위 양쪽에 단위가 반복되거나 공백이 섞인 표기를 `01~18권` 형태로 정리하도록 보완했습니다.",
-        "건강 진단 이름 정리에서 권수 뒤에 괄호 없이 적힌 `연재본`·`단행본` 계열 표기를 대괄호 태그로 옮겨, 완결·해상도 뒤에 `[연재본]`·`[단행본]`으로 정렬하도록 보완했습니다.",
-        "건강 진단 이름 정리에서 `1500px]`처럼 해상도 뒤에 짝 없는 닫는 대괄호가 남은 파일명을 `[1500px]`로 정리할 때 불필요한 `]`가 추천명에 남지 않도록 수정했습니다.",
-        "건강 진단에서 이미 자연스럽게 적힌 `1화-50화` 같은 범위 표기를 불필요하게 `1-50화`로 바꾸지 않도록 보완했습니다."
       ]
     }
   ]

@@ -1,8 +1,8 @@
 {
-  "version": "9.0.65",
-  "released_at": "2026-08-27",
-  "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v9.0.65",
-  "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v9.0.65/Manga.Library.Scanner.v9.0.65.exe",
+  "version": "9.0.66",
+  "released_at": "2026-08-28",
+  "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v9.0.66",
+  "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v9.0.66/Manga.Library.Scanner.v9.0.66.exe",
   "notices": [
     {
       "text": "Everything처럼 모든 정보를 즉시 실시간으로 갱신하는 방식은 NAS 이용 환경에서 잦은 접근 부담이 생길 수 있어, 충분히 테스트하며 단계적으로 적용할 예정입니다. 현재는 파일 추가/수정/삭제가 감지되면 잠시 후 변경분만 갱신할 수 있도록 알려주고, 스캔 버튼 클릭 시 변경된 부분만 우선 스캔하도록 개선해 두었습니다.",
@@ -40,10 +40,19 @@
     }
   ],
   "notes": [
-    "일부 배포 환경에서 프로그램 시작 시 `QtCore` DLL 오류로 실행되지 않던 문제를 수정했습니다.",
-    "숫자 권수와 `상`/`하` 같은 이름 표기가 함께 있는 시리즈를 전체 스캔할 때 오류가 발생할 수 있던 문제를 수정했습니다."
+    "드라이브 전체를 스캔할 때 `System Volume Information`, `$RECYCLE.BIN` 같은 Windows 관리 폴더의 접근 제한 때문에 전체 스캔이 중단되던 문제를 수정했습니다."
   ],
   "releases": [
+    {
+      "version": "9.0.66",
+      "released_at": "2026-08-28",
+      "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v9.0.66",
+      "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v9.0.66/Manga.Library.Scanner.v9.0.66.exe",
+      "notices": [],
+      "notes": [
+        "드라이브 전체를 스캔할 때 `System Volume Information`, `$RECYCLE.BIN` 같은 Windows 관리 폴더의 접근 제한 때문에 전체 스캔이 중단되던 문제를 수정했습니다."
+      ]
+    },
     {
       "version": "9.0.65",
       "released_at": "2026-08-27",
@@ -87,18 +96,6 @@
       "notices": [],
       "notes": [
         "개별 분석의 압축 파일 구조 정리에서 최상위 폴더뿐 아니라 ZIP/CBZ 안에 내부 ZIP/CBZ 하나만 들어 있는 경우에도 내용물을 한 단계 위로 올려 정리할 수 있도록 개선했습니다."
-      ]
-    },
-    {
-      "version": "9.0.61",
-      "released_at": "2026-08-16",
-      "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v9.0.61",
-      "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v9.0.61/Manga.Library.Scanner.v9.0.61.exe",
-      "notices": [],
-      "notes": [
-        "건강 진단에서 제목과 같은 폴더 안에 `시리즈명 01.zip`, `시리즈명 02.zip`처럼 권 표기 없이 번호만 붙은 파일이 여러 개 있으면 `01권`, `02권` 형식으로 이름 정리를 제안하도록 개선했습니다.",
-        "메인 목록의 개별 파일을 더블클릭하면 탐색기에서 상위 폴더만 여는 대신 해당 파일이 선택된 상태로 열리도록 복구했습니다.",
-        "건강 진단 상세 내용과 복사 결과의 파일 목록에 각 파일의 용량을 함께 표시해 권·화 구성을 검토하기 쉽게 개선했습니다."
       ]
     }
   ]

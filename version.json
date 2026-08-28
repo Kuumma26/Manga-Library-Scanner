@@ -1,8 +1,8 @@
 {
-  "version": "9.0.66",
+  "version": "9.0.67",
   "released_at": "2026-08-28",
-  "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v9.0.66",
-  "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v9.0.66/Manga.Library.Scanner.v9.0.66.exe",
+  "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v9.0.67",
+  "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v9.0.67/Manga.Library.Scanner.v9.0.67.exe",
   "notices": [
     {
       "text": "Everything처럼 모든 정보를 즉시 실시간으로 갱신하는 방식은 NAS 이용 환경에서 잦은 접근 부담이 생길 수 있어, 충분히 테스트하며 단계적으로 적용할 예정입니다. 현재는 파일 추가/수정/삭제가 감지되면 잠시 후 변경분만 갱신할 수 있도록 알려주고, 스캔 버튼 클릭 시 변경된 부분만 우선 스캔하도록 개선해 두었습니다.",
@@ -40,9 +40,19 @@
     }
   ],
   "notes": [
-    "드라이브 전체를 스캔할 때 `System Volume Information`, `$RECYCLE.BIN` 같은 Windows 관리 폴더의 접근 제한 때문에 전체 스캔이 중단되던 문제를 수정했습니다."
+    "게시판 목록을 목록 검사에 붙여넣을 때 `일반`, `웹툰`, `AI` 같은 카테고리와 검색 버튼 문구가 작품으로 잘못 추가되던 문제를 수정했습니다."
   ],
   "releases": [
+    {
+      "version": "9.0.67",
+      "released_at": "2026-08-28",
+      "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v9.0.67",
+      "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v9.0.67/Manga.Library.Scanner.v9.0.67.exe",
+      "notices": [],
+      "notes": [
+        "게시판 목록을 목록 검사에 붙여넣을 때 `일반`, `웹툰`, `AI` 같은 카테고리와 검색 버튼 문구가 작품으로 잘못 추가되던 문제를 수정했습니다."
+      ]
+    },
     {
       "version": "9.0.66",
       "released_at": "2026-08-28",
@@ -86,16 +96,6 @@
         "라이브러리 로딩·목록 판정에 쓰는 중복 데이터와 화면용 임시 캐시를 줄이고, 현재 페이지에 필요한 경로만 준비하도록 바꿔 대형 라이브러리의 목록 표시 메모리 사용량과 대기 시간을 낮췄습니다.",
         "검색 전처리 결과가 파일마다 계속 쌓이지 않도록 제한된 공용 캐시로 바꿔, 여러 검색을 사용한 뒤 메모리 사용량이 크게 늘어나는 현상을 줄였습니다.",
         "전체 스캔 결과 저장과 분석 작업 대기열의 불필요한 대량 복사를 줄이고 취소 응답을 보강해, 대형 라이브러리 처리 중 종료 대기 부담을 낮췄습니다."
-      ]
-    },
-    {
-      "version": "9.0.62",
-      "released_at": "2026-08-22",
-      "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v9.0.62",
-      "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v9.0.62/Manga.Library.Scanner.v9.0.62.exe",
-      "notices": [],
-      "notes": [
-        "개별 분석의 압축 파일 구조 정리에서 최상위 폴더뿐 아니라 ZIP/CBZ 안에 내부 ZIP/CBZ 하나만 들어 있는 경우에도 내용물을 한 단계 위로 올려 정리할 수 있도록 개선했습니다."
       ]
     }
   ]

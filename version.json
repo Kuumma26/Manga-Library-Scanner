@@ -1,8 +1,8 @@
 {
-  "version": "9.0.68",
-  "released_at": "2026-08-29",
-  "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v9.0.68",
-  "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v9.0.68/Manga.Library.Scanner.v9.0.68.exe",
+  "version": "9.0.69",
+  "released_at": "2026-09-10",
+  "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v9.0.69",
+  "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v9.0.69/Manga.Library.Scanner.v9.0.69.exe",
   "notices": [
     {
       "text": "Everything처럼 모든 정보를 즉시 실시간으로 갱신하는 방식은 NAS 이용 환경에서 잦은 접근 부담이 생길 수 있어, 충분히 테스트하며 단계적으로 적용할 예정입니다. 현재는 파일 추가/수정/삭제가 감지되면 잠시 후 변경분만 갱신할 수 있도록 알려주고, 스캔 버튼 클릭 시 변경된 부분만 우선 스캔하도록 개선해 두었습니다.",
@@ -40,10 +40,19 @@
     }
   ],
   "notes": [
-    "전체 스캔 중 일부 NAS 파일이나 폴더에 접근하지 못해도 해당 범위의 기존 목록은 유지하고, 접근 가능한 나머지 항목은 정상적으로 갱신하도록 개선했습니다.",
-    "스캔 미반영 안내에서 접근하지 못한 파일·폴더와 오류 원인을 함께 확인할 수 있도록 개선했습니다."
+    "건강 진단 이름 정리에서 앞쪽 태그 사이 공백과 뒤쪽 번역·해상도·업스 태그가 함께 어긋난 파일도 한 번에 최종 표준 이름으로 추천하도록 개선했습니다."
   ],
   "releases": [
+    {
+      "version": "9.0.69",
+      "released_at": "2026-09-10",
+      "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v9.0.69",
+      "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v9.0.69/Manga.Library.Scanner.v9.0.69.exe",
+      "notices": [],
+      "notes": [
+        "건강 진단 이름 정리에서 앞쪽 태그 사이 공백과 뒤쪽 번역·해상도·업스 태그가 함께 어긋난 파일도 한 번에 최종 표준 이름으로 추천하도록 개선했습니다."
+      ]
+    },
     {
       "version": "9.0.68",
       "released_at": "2026-08-29",
@@ -84,16 +93,6 @@
       "notes": [
         "일부 배포 환경에서 프로그램 시작 시 `QtCore` DLL 오류로 실행되지 않던 문제를 수정했습니다.",
         "숫자 권수와 `상`/`하` 같은 이름 표기가 함께 있는 시리즈를 전체 스캔할 때 오류가 발생할 수 있던 문제를 수정했습니다."
-      ]
-    },
-    {
-      "version": "9.0.64",
-      "released_at": "2026-08-27",
-      "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v9.0.64",
-      "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v9.0.64/Manga.Library.Scanner.v9.0.64.exe",
-      "notices": [],
-      "notes": [
-        "개별 분석의 압축 파일 구조 정리에서 RAR/CBR도 최상위 폴더를 제거할 수 있도록 지원하고, 검증된 ZIP/CBZ로 안전하게 변환하도록 개선했습니다."
       ]
     }
   ]

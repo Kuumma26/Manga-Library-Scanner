@@ -1,8 +1,8 @@
 {
-  "version": "9.0.69",
-  "released_at": "2026-09-10",
-  "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v9.0.69",
-  "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v9.0.69/Manga.Library.Scanner.v9.0.69.exe",
+  "version": "9.0.70",
+  "released_at": "2026-09-27",
+  "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v9.0.70",
+  "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v9.0.70/Manga.Library.Scanner.v9.0.70.exe",
   "notices": [
     {
       "text": "Everything처럼 모든 정보를 즉시 실시간으로 갱신하는 방식은 NAS 이용 환경에서 잦은 접근 부담이 생길 수 있어, 충분히 테스트하며 단계적으로 적용할 예정입니다. 현재는 파일 추가/수정/삭제가 감지되면 잠시 후 변경분만 갱신할 수 있도록 알려주고, 스캔 버튼 클릭 시 변경된 부분만 우선 스캔하도록 개선해 두었습니다.",
@@ -40,9 +40,19 @@
     }
   ],
   "notes": [
-    "건강 진단 이름 정리에서 앞쪽 태그 사이 공백과 뒤쪽 번역·해상도·업스 태그가 함께 어긋난 파일도 한 번에 최종 표준 이름으로 추천하도록 개선했습니다."
+    "'파일 경로 전체(절대 경로) 항상 표시'를 꺼도 목록 저장(.txt)에 전체 경로가 기록되던 문제를 수정했습니다. 이제 설정을 끄면 스캔 폴더 기준 상대 경로로 저장되며, 설정 설명과 도움말에도 적용 범위를 명시했습니다."
   ],
   "releases": [
+    {
+      "version": "9.0.70",
+      "released_at": "2026-09-27",
+      "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v9.0.70",
+      "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v9.0.70/Manga.Library.Scanner.v9.0.70.exe",
+      "notices": [],
+      "notes": [
+        "'파일 경로 전체(절대 경로) 항상 표시'를 꺼도 목록 저장(.txt)에 전체 경로가 기록되던 문제를 수정했습니다. 이제 설정을 끄면 스캔 폴더 기준 상대 경로로 저장되며, 설정 설명과 도움말에도 적용 범위를 명시했습니다."
+      ]
+    },
     {
       "version": "9.0.69",
       "released_at": "2026-09-10",
@@ -82,17 +92,6 @@
       "notices": [],
       "notes": [
         "드라이브 전체를 스캔할 때 `System Volume Information`, `$RECYCLE.BIN` 같은 Windows 관리 폴더의 접근 제한 때문에 전체 스캔이 중단되던 문제를 수정했습니다."
-      ]
-    },
-    {
-      "version": "9.0.65",
-      "released_at": "2026-08-27",
-      "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v9.0.65",
-      "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v9.0.65/Manga.Library.Scanner.v9.0.65.exe",
-      "notices": [],
-      "notes": [
-        "일부 배포 환경에서 프로그램 시작 시 `QtCore` DLL 오류로 실행되지 않던 문제를 수정했습니다.",
-        "숫자 권수와 `상`/`하` 같은 이름 표기가 함께 있는 시리즈를 전체 스캔할 때 오류가 발생할 수 있던 문제를 수정했습니다."
       ]
     }
   ]

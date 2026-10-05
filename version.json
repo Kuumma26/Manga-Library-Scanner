@@ -1,8 +1,8 @@
 {
-  "version": "9.0.71",
-  "released_at": "2026-10-05",
-  "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v9.0.71",
-  "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v9.0.71/Manga.Library.Scanner.v9.0.71.exe",
+  "version": "9.0.72",
+  "released_at": "2026-10-06",
+  "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v9.0.72",
+  "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v9.0.72/Manga.Library.Scanner.v9.0.72.exe",
   "notices": [
     {
       "text": "Everything처럼 모든 정보를 즉시 실시간으로 갱신하는 방식은 NAS 이용 환경에서 잦은 접근 부담이 생길 수 있어, 충분히 테스트하며 단계적으로 적용할 예정입니다. 현재는 파일 추가/수정/삭제가 감지되면 잠시 후 변경분만 갱신할 수 있도록 알려주고, 스캔 버튼 클릭 시 변경된 부분만 우선 스캔하도록 개선해 두었습니다.",
@@ -40,15 +40,21 @@
     }
   ],
   "notes": [
-    "정상적으로 완료된 전체 스캔 결과가 0개일 때도 저장하여, 재실행하면 이전 목록이 다시 나타나던 문제를 수정했습니다.",
-    "폴더를 선택해 볼 때 숨겨진 파일의 용량과 날짜가 합계·정렬에 섞이던 문제를 수정했습니다.",
-    "스캔 시 전각·반각 영문과 한글 조합형 차이로 같은 시리즈가 분리되는 문제를 개선했습니다. 이미 분리된 목록은 전체 스캔으로 다시 분류할 수 있습니다.",
-    "파일 변경 확인 중 NAS 경로 확인으로 메인 화면이 멈추는 구간을 제거하고, 경로 변경·스캔 시작·종료 시 이전 변경 확인 작업을 취소하도록 개선했습니다.",
-    "파일 변경 확인에서 디렉터리 조회 정보를 재사용하여 파일별 추가 정보 조회를 줄였습니다.",
-    "검색 준비 과정에서 반복되는 제목·폴더 정보와 불필요한 토큰 저장을 줄여 검색 인덱스 생성 속도와 메모리 사용을 개선했습니다.",
-    "연관 검색에서 붙여 쓴 제목, 단어 순서 차이와 가벼운 오타를 함께 찾고 정확한 제목을 우선 표시하도록 개선했습니다. 흔한 단어만 겹치는 결과는 줄이고, 숫자 차이와 제외어는 엄격하게 처리합니다."
+    "건강 진단의 권수 보정이 시리즈 최대 권수에 맞춰 추천명의 자릿수를 통일합니다. 9권 이하는 `1권`, 10~99권은 `01권`, 100권 이상은 최대 권수의 자릿수를 사용하며, 권수 범위에도 적용합니다. 화 번호와 소수 권수는 유지합니다.",
+    "목록 검사에서 제목 검색 준비와 같은 시리즈의 표시명·보유 권수 계산을 검사 중 공유하고, 동일 파일명 중복 분석을 줄여 여러 줄 검사 속도를 개선했습니다. 새 검사에서는 준비 정보를 다시 생성하며 보유 판정 기준은 유지합니다."
   ],
   "releases": [
+    {
+      "version": "9.0.72",
+      "released_at": "2026-10-06",
+      "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v9.0.72",
+      "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v9.0.72/Manga.Library.Scanner.v9.0.72.exe",
+      "notices": [],
+      "notes": [
+        "건강 진단의 권수 보정이 시리즈 최대 권수에 맞춰 추천명의 자릿수를 통일합니다. 9권 이하는 `1권`, 10~99권은 `01권`, 100권 이상은 최대 권수의 자릿수를 사용하며, 권수 범위에도 적용합니다. 화 번호와 소수 권수는 유지합니다.",
+        "목록 검사에서 제목 검색 준비와 같은 시리즈의 표시명·보유 권수 계산을 검사 중 공유하고, 동일 파일명 중복 분석을 줄여 여러 줄 검사 속도를 개선했습니다. 새 검사에서는 준비 정보를 다시 생성하며 보유 판정 기준은 유지합니다."
+      ]
+    },
     {
       "version": "9.0.71",
       "released_at": "2026-10-05",
@@ -94,16 +100,6 @@
       "notes": [
         "전체 스캔 중 일부 NAS 파일이나 폴더에 접근하지 못해도 해당 범위의 기존 목록은 유지하고, 접근 가능한 나머지 항목은 정상적으로 갱신하도록 개선했습니다.",
         "스캔 미반영 안내에서 접근하지 못한 파일·폴더와 오류 원인을 함께 확인할 수 있도록 개선했습니다."
-      ]
-    },
-    {
-      "version": "9.0.67",
-      "released_at": "2026-08-28",
-      "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v9.0.67",
-      "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v9.0.67/Manga.Library.Scanner.v9.0.67.exe",
-      "notices": [],
-      "notes": [
-        "게시판 목록을 목록 검사에 붙여넣을 때 `일반`, `웹툰`, `AI` 같은 카테고리와 검색 버튼 문구가 작품으로 잘못 추가되던 문제를 수정했습니다."
       ]
     }
   ]

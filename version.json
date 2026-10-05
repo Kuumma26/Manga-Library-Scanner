@@ -1,8 +1,8 @@
 {
-  "version": "9.0.70",
-  "released_at": "2026-09-27",
-  "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v9.0.70",
-  "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v9.0.70/Manga.Library.Scanner.v9.0.70.exe",
+  "version": "9.0.71",
+  "released_at": "2026-10-05",
+  "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v9.0.71",
+  "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v9.0.71/Manga.Library.Scanner.v9.0.71.exe",
   "notices": [
     {
       "text": "Everything처럼 모든 정보를 즉시 실시간으로 갱신하는 방식은 NAS 이용 환경에서 잦은 접근 부담이 생길 수 있어, 충분히 테스트하며 단계적으로 적용할 예정입니다. 현재는 파일 추가/수정/삭제가 감지되면 잠시 후 변경분만 갱신할 수 있도록 알려주고, 스캔 버튼 클릭 시 변경된 부분만 우선 스캔하도록 개선해 두었습니다.",
@@ -40,9 +40,31 @@
     }
   ],
   "notes": [
-    "'파일 경로 전체(절대 경로) 항상 표시'를 꺼도 목록 저장(.txt)에 전체 경로가 기록되던 문제를 수정했습니다. 이제 설정을 끄면 스캔 폴더 기준 상대 경로로 저장되며, 설정 설명과 도움말에도 적용 범위를 명시했습니다."
+    "정상적으로 완료된 전체 스캔 결과가 0개일 때도 저장하여, 재실행하면 이전 목록이 다시 나타나던 문제를 수정했습니다.",
+    "폴더를 선택해 볼 때 숨겨진 파일의 용량과 날짜가 합계·정렬에 섞이던 문제를 수정했습니다.",
+    "스캔 시 전각·반각 영문과 한글 조합형 차이로 같은 시리즈가 분리되는 문제를 개선했습니다. 이미 분리된 목록은 전체 스캔으로 다시 분류할 수 있습니다.",
+    "파일 변경 확인 중 NAS 경로 확인으로 메인 화면이 멈추는 구간을 제거하고, 경로 변경·스캔 시작·종료 시 이전 변경 확인 작업을 취소하도록 개선했습니다.",
+    "파일 변경 확인에서 디렉터리 조회 정보를 재사용하여 파일별 추가 정보 조회를 줄였습니다.",
+    "검색 준비 과정에서 반복되는 제목·폴더 정보와 불필요한 토큰 저장을 줄여 검색 인덱스 생성 속도와 메모리 사용을 개선했습니다.",
+    "연관 검색에서 붙여 쓴 제목, 단어 순서 차이와 가벼운 오타를 함께 찾고 정확한 제목을 우선 표시하도록 개선했습니다. 흔한 단어만 겹치는 결과는 줄이고, 숫자 차이와 제외어는 엄격하게 처리합니다."
   ],
   "releases": [
+    {
+      "version": "9.0.71",
+      "released_at": "2026-10-05",
+      "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v9.0.71",
+      "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v9.0.71/Manga.Library.Scanner.v9.0.71.exe",
+      "notices": [],
+      "notes": [
+        "정상적으로 완료된 전체 스캔 결과가 0개일 때도 저장하여, 재실행하면 이전 목록이 다시 나타나던 문제를 수정했습니다.",
+        "폴더를 선택해 볼 때 숨겨진 파일의 용량과 날짜가 합계·정렬에 섞이던 문제를 수정했습니다.",
+        "스캔 시 전각·반각 영문과 한글 조합형 차이로 같은 시리즈가 분리되는 문제를 개선했습니다. 이미 분리된 목록은 전체 스캔으로 다시 분류할 수 있습니다.",
+        "파일 변경 확인 중 NAS 경로 확인으로 메인 화면이 멈추는 구간을 제거하고, 경로 변경·스캔 시작·종료 시 이전 변경 확인 작업을 취소하도록 개선했습니다.",
+        "파일 변경 확인에서 디렉터리 조회 정보를 재사용하여 파일별 추가 정보 조회를 줄였습니다.",
+        "검색 준비 과정에서 반복되는 제목·폴더 정보와 불필요한 토큰 저장을 줄여 검색 인덱스 생성 속도와 메모리 사용을 개선했습니다.",
+        "연관 검색에서 붙여 쓴 제목, 단어 순서 차이와 가벼운 오타를 함께 찾고 정확한 제목을 우선 표시하도록 개선했습니다. 흔한 단어만 겹치는 결과는 줄이고, 숫자 차이와 제외어는 엄격하게 처리합니다."
+      ]
+    },
     {
       "version": "9.0.70",
       "released_at": "2026-09-27",
@@ -82,16 +104,6 @@
       "notices": [],
       "notes": [
         "게시판 목록을 목록 검사에 붙여넣을 때 `일반`, `웹툰`, `AI` 같은 카테고리와 검색 버튼 문구가 작품으로 잘못 추가되던 문제를 수정했습니다."
-      ]
-    },
-    {
-      "version": "9.0.66",
-      "released_at": "2026-08-28",
-      "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v9.0.66",
-      "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v9.0.66/Manga.Library.Scanner.v9.0.66.exe",
-      "notices": [],
-      "notes": [
-        "드라이브 전체를 스캔할 때 `System Volume Information`, `$RECYCLE.BIN` 같은 Windows 관리 폴더의 접근 제한 때문에 전체 스캔이 중단되던 문제를 수정했습니다."
       ]
     }
   ]

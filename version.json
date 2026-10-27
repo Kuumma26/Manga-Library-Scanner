@@ -1,8 +1,8 @@
 {
-  "version": "9.0.73",
-  "released_at": "2026-10-17",
-  "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v9.0.73",
-  "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v9.0.73/Manga.Library.Scanner.v9.0.73.exe",
+  "version": "9.0.74",
+  "released_at": "2026-10-28",
+  "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v9.0.74",
+  "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v9.0.74/Manga.Library.Scanner.v9.0.74.exe",
   "notices": [
     {
       "text": "Everything처럼 모든 정보를 즉시 실시간으로 갱신하는 방식은 NAS 이용 환경에서 잦은 접근 부담이 생길 수 있어, 충분히 테스트하며 단계적으로 적용할 예정입니다. 현재는 파일 추가/수정/삭제가 감지되면 잠시 후 변경분만 갱신할 수 있도록 알려주고, 스캔 버튼 클릭 시 변경된 부분만 우선 스캔하도록 개선해 두었습니다.",
@@ -40,9 +40,21 @@
     }
   ],
   "notes": [
-    "목록 검사의 입력 정리에서 만기일·만료일 안내, 작품 앞의 목록 번호, 다운로드 링크와 바로다운로드 문구를 제거하도록 개선했습니다. 제목과 권수 정보는 유지하며, 검색·보유 판정 기준은 변경하지 않았습니다."
+    "개별 분석의 구조 정리에서 RAR/CBR을 ZIP/CBZ로 변환할 때, 공통 최상위 폴더가 있으면 한 단계 제거하고 없으면 내부 구조를 유지하도록 개선했습니다. 같은 이름의 변환 파일이 있거나 안전하게 처리할 수 없는 항목도 제외 사유를 표시하며, 기존 파일은 덮어쓰지 않습니다.",
+    "RAR 일괄 압축 해제 도구가 일부 파일명을 처리하지 못할 때 파일별 읽기로 변환을 이어가도록 보완했습니다. 변환 결과 검증에 실패하면 원본을 유지합니다."
   ],
   "releases": [
+    {
+      "version": "9.0.74",
+      "released_at": "2026-10-28",
+      "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v9.0.74",
+      "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v9.0.74/Manga.Library.Scanner.v9.0.74.exe",
+      "notices": [],
+      "notes": [
+        "개별 분석의 구조 정리에서 RAR/CBR을 ZIP/CBZ로 변환할 때, 공통 최상위 폴더가 있으면 한 단계 제거하고 없으면 내부 구조를 유지하도록 개선했습니다. 같은 이름의 변환 파일이 있거나 안전하게 처리할 수 없는 항목도 제외 사유를 표시하며, 기존 파일은 덮어쓰지 않습니다.",
+        "RAR 일괄 압축 해제 도구가 일부 파일명을 처리하지 못할 때 파일별 읽기로 변환을 이어가도록 보완했습니다. 변환 결과 검증에 실패하면 원본을 유지합니다."
+      ]
+    },
     {
       "version": "9.0.73",
       "released_at": "2026-10-17",
@@ -88,16 +100,6 @@
       "notices": [],
       "notes": [
         "'파일 경로 전체(절대 경로) 항상 표시'를 꺼도 목록 저장(.txt)에 전체 경로가 기록되던 문제를 수정했습니다. 이제 설정을 끄면 스캔 폴더 기준 상대 경로로 저장되며, 설정 설명과 도움말에도 적용 범위를 명시했습니다."
-      ]
-    },
-    {
-      "version": "9.0.69",
-      "released_at": "2026-09-10",
-      "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v9.0.69",
-      "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v9.0.69/Manga.Library.Scanner.v9.0.69.exe",
-      "notices": [],
-      "notes": [
-        "건강 진단 이름 정리에서 앞쪽 태그 사이 공백과 뒤쪽 번역·해상도·업스 태그가 함께 어긋난 파일도 한 번에 최종 표준 이름으로 추천하도록 개선했습니다."
       ]
     }
   ]

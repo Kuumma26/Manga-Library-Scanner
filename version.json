@@ -1,8 +1,8 @@
 {
-  "version": "9.0.74",
-  "released_at": "2026-10-28",
-  "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v9.0.74",
-  "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v9.0.74/Manga.Library.Scanner.v9.0.74.exe",
+  "version": "9.0.75",
+  "released_at": "2026-10-29",
+  "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v9.0.75",
+  "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v9.0.75/Manga.Library.Scanner.v9.0.75.exe",
   "notices": [
     {
       "text": "Everything처럼 모든 정보를 즉시 실시간으로 갱신하는 방식은 NAS 이용 환경에서 잦은 접근 부담이 생길 수 있어, 충분히 테스트하며 단계적으로 적용할 예정입니다. 현재는 파일 추가/수정/삭제가 감지되면 잠시 후 변경분만 갱신할 수 있도록 알려주고, 스캔 버튼 클릭 시 변경된 부분만 우선 스캔하도록 개선해 두었습니다.",
@@ -40,10 +40,19 @@
     }
   ],
   "notes": [
-    "개별 분석의 구조 정리에서 RAR/CBR을 ZIP/CBZ로 변환할 때, 공통 최상위 폴더가 있으면 한 단계 제거하고 없으면 내부 구조를 유지하도록 개선했습니다. 같은 이름의 변환 파일이 있거나 안전하게 처리할 수 없는 항목도 제외 사유를 표시하며, 기존 파일은 덮어쓰지 않습니다.",
-    "RAR 일괄 압축 해제 도구가 일부 파일명을 처리하지 못할 때 파일별 읽기로 변환을 이어가도록 보완했습니다. 변환 결과 검증에 실패하면 원본을 유지합니다."
+    "다른 앱이나 보조 창을 보고 있을 때 스캐너의 툴팁이 화면 위에 남거나 뒤늦게 표시되던 문제를 수정했습니다. 비활성화·창 숨김 시 기존 툴팁과 표시 예약을 함께 취소합니다."
   ],
   "releases": [
+    {
+      "version": "9.0.75",
+      "released_at": "2026-10-29",
+      "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v9.0.75",
+      "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v9.0.75/Manga.Library.Scanner.v9.0.75.exe",
+      "notices": [],
+      "notes": [
+        "다른 앱이나 보조 창을 보고 있을 때 스캐너의 툴팁이 화면 위에 남거나 뒤늦게 표시되던 문제를 수정했습니다. 비활성화·창 숨김 시 기존 툴팁과 표시 예약을 함께 취소합니다."
+      ]
+    },
     {
       "version": "9.0.74",
       "released_at": "2026-10-28",
@@ -90,16 +99,6 @@
         "파일 변경 확인에서 디렉터리 조회 정보를 재사용하여 파일별 추가 정보 조회를 줄였습니다.",
         "검색 준비 과정에서 반복되는 제목·폴더 정보와 불필요한 토큰 저장을 줄여 검색 인덱스 생성 속도와 메모리 사용을 개선했습니다.",
         "연관 검색에서 붙여 쓴 제목, 단어 순서 차이와 가벼운 오타를 함께 찾고 정확한 제목을 우선 표시하도록 개선했습니다. 흔한 단어만 겹치는 결과는 줄이고, 숫자 차이와 제외어는 엄격하게 처리합니다."
-      ]
-    },
-    {
-      "version": "9.0.70",
-      "released_at": "2026-09-27",
-      "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v9.0.70",
-      "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v9.0.70/Manga.Library.Scanner.v9.0.70.exe",
-      "notices": [],
-      "notes": [
-        "'파일 경로 전체(절대 경로) 항상 표시'를 꺼도 목록 저장(.txt)에 전체 경로가 기록되던 문제를 수정했습니다. 이제 설정을 끄면 스캔 폴더 기준 상대 경로로 저장되며, 설정 설명과 도움말에도 적용 범위를 명시했습니다."
       ]
     }
   ]

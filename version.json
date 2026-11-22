@@ -1,8 +1,8 @@
 {
-  "version": "9.0.83",
+  "version": "9.0.84",
   "released_at": "2026-11-22",
-  "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v9.0.83",
-  "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v9.0.83/Manga.Library.Scanner.v9.0.83.exe",
+  "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v9.0.84",
+  "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v9.0.84/Manga.Library.Scanner.v9.0.84.exe",
   "notices": [
     {
       "text": "Everything처럼 모든 정보를 즉시 실시간으로 갱신하는 방식은 NAS 이용 환경에서 잦은 접근 부담이 생길 수 있어, 충분히 테스트하며 단계적으로 적용할 예정입니다. 현재는 파일 추가/수정/삭제가 감지되면 잠시 후 변경분만 갱신할 수 있도록 알려주고, 스캔 버튼 클릭 시 변경된 부분만 우선 스캔하도록 개선해 두었습니다.",
@@ -40,10 +40,19 @@
     }
   ],
   "notes": [
-    "메인창을 960px보다 좁게 줄일 수 있습니다. 공간이 부족하면 버튼이 아이콘으로 바뀌고 조작법은 전체 조작법에서 확인할 수 있습니다.",
-    "메인 목록에서 최대화한 창을 다시 줄여도 제목과 경로가 저장된 너비 비율에 맞춰 줄어듭니다. 목록 검사, 건강 진단, 이름 변경 미리보기, 압축 구조 정리도 긴 텍스트 열을 창·분할선에 맞추며 자동 조정값을 저장하지 않습니다."
+    "건강 진단에서 여러 항목을 선택하면 하단 상세란에 100개를 넘는 항목도 생략 없이 표시합니다."
   ],
   "releases": [
+    {
+      "version": "9.0.84",
+      "released_at": "2026-11-22",
+      "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v9.0.84",
+      "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v9.0.84/Manga.Library.Scanner.v9.0.84.exe",
+      "notices": [],
+      "notes": [
+        "건강 진단에서 여러 항목을 선택하면 하단 상세란에 100개를 넘는 항목도 생략 없이 표시합니다."
+      ]
+    },
     {
       "version": "9.0.83",
       "released_at": "2026-11-22",
@@ -100,16 +109,6 @@
       "notices": [],
       "notes": [
         "환경설정의 클립보드 검색 단축키 아래에서 검색 후 추가 동작을 선택할 수 있습니다. 한 작품만 찾으면 개별 분석을 열거나 통합 비교 왼쪽 또는 오른쪽에 추가하며, 두 동작을 함께 선택할 수도 있습니다. 모두 끄면 기존처럼 검색만 합니다."
-      ]
-    },
-    {
-      "version": "9.0.77",
-      "released_at": "2026-11-08",
-      "release_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/tag/v9.0.77",
-      "download_url": "https://github.com/Kuumma26/Manga-Library-Scanner/releases/download/v9.0.77/Manga.Library.Scanner.v9.0.77.exe",
-      "notices": [],
-      "notes": [
-        "검색창 자동 빈칸 옵션을 켜도 검색 후 입력칸을 클릭했을 때 기존 검색어가 남던 문제를 수정했습니다. 포커스가 그대로 있거나 자동 검색 직후여도 수동 클릭으로 비워지며, 새 검색어를 입력하는 중의 커서 이동 클릭은 내용을 유지합니다."
       ]
     }
   ]
